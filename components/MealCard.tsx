@@ -14,11 +14,14 @@ interface MealCardProps {
 
 export function MealCard({ meal }: MealCardProps) {
   const [isExpanded, setIsExpanded] = useState(false)
+  const [imageError, setImageError] = useState(false)
 
   const matchPercent =
     meal.matchScore
       ? Math.round((meal.matchScore.have / meal.matchScore.total) * 100)
       : null
+
+  const showImage = meal.imageUrl && !imageError
 
   return (
     <Card
@@ -27,18 +30,15 @@ export function MealCard({ meal }: MealCardProps) {
         'hover:shadow-md'
       )}
     >
-      {/* Recipe image */}
-      {meal.imageUrl && (
+      {/* Recipe image — only rendered if URL exists and hasn't errored */}
+      {showImage && (
         <div className="relative h-40 w-full bg-stone-100">
           <Image
-            src={meal.imageUrl}
+            src={meal.imageUrl!}
             alt={meal.name}
             fill
             className="object-cover"
-            onError={(e) => {
-              // Hide broken images gracefully
-              ;(e.currentTarget as HTMLImageElement).style.display = 'none'
-            }}
+            onError={() => setImageError(true)}
           />
         </div>
       )}

@@ -8,7 +8,9 @@
       "PowerShell(New-Item -ItemType Directory -Force -Path \"app\\\\api\\\\suggest\")",
       "PowerShell(git init)",
       "PowerShell(git remote add origin https://github.com/thebenstenator/fork-it.git)",
-      "PowerShell(git add .)"
+      "PowerShell(git add .)",
+      "PowerShell(git add .gitignore .env.example)",
+      "PowerShell(git push -u origin main)"
     ]
   }
 }
