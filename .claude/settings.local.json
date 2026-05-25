@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"..\\\\forkit-temp\" -Force | Where-Object { $_.Name -ne \".git\" } | ForEach-Object { Copy-Item -Path $_.FullName -Destination \".\" -Recurse -Force }; Remove-Item -Path \"..\\\\forkit-temp\" -Recurse -Force; Write-Output \"Done\")",
+      "PowerShell(npm install framer-motion zustand react-hook-form @hookform/resolvers zod @anthropic-ai/sdk @upstash/redis @upstash/ratelimit clsx tailwind-merge)",
+      "PowerShell(npx shadcn@latest init --defaults)",
+      "PowerShell(npx shadcn@latest add badge card skeleton textarea --overwrite)",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"app\\\\api\\\\suggest\")",
+      "PowerShell(git init)",
+      "PowerShell(git remote add origin https://github.com/thebenstenator/fork-it.git)",
+      "PowerShell(git add .)"
+    ]
+  }
+}
