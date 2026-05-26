@@ -65,44 +65,77 @@ export async function getRecipeInformation(id: number): Promise<SpoonacularRecip
 
 // ---------------------------------------------------------------------------
 // Combined: search + fetch details for the top matches
-// Returns enriched recipes filtered to those with a reasonable ingredient match.
-// Falls back gracefully if some detail fetches fail.
+// Returns enriched recipes filtered to those with a reasonable ingredient match
+// and matching any dietary filters.
 // ---------------------------------------------------------------------------
+
+function matchesDietaryFilters(
+  recipe: SpoonacularRecipe,
+  filters: string[]
+): boolean {
+  for (const filter of filters) {
+    switch (filter) {
+      case 'vegetarian':
+        if (!recipe.vegetarian) return false
+        break
+      case 'dairy-free':
+        if (!recipe.dairyFree) return false
+        break
+      case 'gluten-free':
+        if (!recipe.glutenFree) return false
+        break
+      case 'quick':
+        if (!recipe.readyInMinutes || recipe.readyInMinutes > 20) return false
+        break
+      // 'kid-friendly' has no Spoonacular signal — handled by Claude prompt only
+    }
+  }
+  return true
+}
 
 export async function searchRecipes(
   ingredients: string[],
+  filters: string[] = [],
   limit = 3
 ): Promise<{ recipes: SpoonacularRecipe[]; goodMatchCount: number }> {
-  // Fetch a few extras so we have options after filtering low-match results
-  const candidates = await findRecipesByIngredients(ingredients, limit + 3)
+  // Fetch extra candidates when filters are active — some will be excluded
+  const fetchCount = filters.length > 0 ? limit + 6 : limit + 3
+  const candidates = await findRecipesByIngredients(ingredients, fetchCount)
 
-  // Filter to recipes that match at least MIN_MATCH_RATIO of the search ingredients
+  // Filter to recipes with a reasonable ingredient match ratio
   const goodMatches = candidates.filter((r) => {
     const total = r.usedIngredientCount + r.missedIngredientCount
     return total === 0 || r.usedIngredientCount / total >= MIN_MATCH_RATIO
   })
 
-  // Fetch full details (steps + timing) for up to `limit` good matches
-  const topMatches = goodMatches.slice(0, limit)
+  // Fetch full details for more candidates than needed so we have room to filter
+  const toFetch = goodMatches.slice(0, filters.length > 0 ? limit + 4 : limit)
   const detailed = await Promise.allSettled(
-    topMatches.map((r) => getRecipeInformation(r.id))
+    toFetch.map((r) => getRecipeInformation(r.id))
   )
 
-  // Merge findByIngredients data (used/missed ingredients) with information data (steps)
-  const recipes: SpoonacularRecipe[] = []
+  // Merge findByIngredients data with information data
+  const merged: SpoonacularRecipe[] = []
   for (let i = 0; i < detailed.length; i++) {
     const result = detailed[i]
     if (result.status === 'fulfilled') {
-      recipes.push({
+      merged.push({
         ...result.value,
-        usedIngredients: topMatches[i].usedIngredients,
-        missedIngredients: topMatches[i].missedIngredients,
-        usedIngredientCount: topMatches[i].usedIngredientCount,
-        missedIngredientCount: topMatches[i].missedIngredientCount,
+        usedIngredients: toFetch[i].usedIngredients,
+        missedIngredients: toFetch[i].missedIngredients,
+        usedIngredientCount: toFetch[i].usedIngredientCount,
+        missedIngredientCount: toFetch[i].missedIngredientCount,
       })
     }
-    // If a detail fetch fails, we just skip that recipe — Claude will fill the gap
   }
 
-  return { recipes, goodMatchCount: goodMatches.length }
+  // Apply dietary filters post-fetch using Spoonacular's recipe flags
+  const filtered = filters.length > 0
+    ? merged.filter((r) => matchesDietaryFilters(r, filters))
+    : merged
+
+  return {
+    recipes: filtered.slice(0, limit),
+    goodMatchCount: goodMatches.length,
+  }
 }

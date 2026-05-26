@@ -13,7 +13,9 @@
       "PowerShell(git push -u origin main)",
       "PowerShell(git push)",
       "PowerShell(npm install @vercel/analytics)",
-      "PowerShell(npx tsc --noEmit 2>&1)"
+      "PowerShell(npx tsc --noEmit 2>&1)",
+      "PowerShell(npm install posthog-js)",
+      "PowerShell(npx tsc --noEmit)"
     ]
   }
 }

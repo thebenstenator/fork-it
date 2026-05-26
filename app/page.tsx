@@ -1,16 +1,18 @@
 "use client";
 
+import { useState } from "react";
 import { IngredientInput } from "@/components/IngredientInput";
+import { FilterChips } from "@/components/FilterChips";
 import { MealSuggestions } from "@/components/MealSuggestions";
 import { KofiPrompt } from "@/components/KofiPrompt";
 import { useMealSuggestions } from "@/hooks/useMealSuggestions";
 
 export default function Home() {
   const { data, isLoading, error, fetchSuggestions } = useMealSuggestions();
+  const [activeFilters, setActiveFilters] = useState<string[]>([]);
 
   function handleSubmit(ingredients: string) {
-    // No filters in Slice 1 — added in Slice 3
-    fetchSuggestions(ingredients, []);
+    fetchSuggestions(ingredients, activeFilters);
   }
 
   return (
@@ -28,6 +30,9 @@ export default function Home() {
 
         {/* Input */}
         <IngredientInput onSubmit={handleSubmit} isLoading={isLoading} />
+
+        {/* Dietary filters */}
+        <FilterChips onChange={setActiveFilters} />
 
         {/* Results */}
         <MealSuggestions data={data} isLoading={isLoading} error={error} />

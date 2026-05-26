@@ -23,6 +23,10 @@ export interface SpoonacularRecipe {
   likes: number
   // From the /recipes/{id}/information endpoint
   readyInMinutes?: number
+  vegetarian?: boolean
+  vegan?: boolean
+  glutenFree?: boolean
+  dairyFree?: boolean
   analyzedInstructions?: Array<{
     steps: Array<{
       number: number

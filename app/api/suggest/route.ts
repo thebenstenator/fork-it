@@ -53,7 +53,7 @@ export async function POST(req: NextRequest) {
     // ------------------------------------------------------------------
     // 5. Fetch from Spoonacular
     // ------------------------------------------------------------------
-    const { recipes: spoonacularRecipes } = await searchRecipes(normalizedIngredients)
+    const { recipes: spoonacularRecipes } = await searchRecipes(normalizedIngredients, filters)
 
     // ------------------------------------------------------------------
     // 6. Enrich or generate
