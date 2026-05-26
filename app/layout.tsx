@@ -11,7 +11,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "fork it. — dinner sorted",
   description:
-    "Fork what's in your fridge. Type your ingredients and get 3 real dinner ideas in seconds. No account, no nonsense.",
+    "Real dinner ideas from whatever you've got. Type your ingredients and get 3 practical meal ideas in seconds. No account, no nonsense.",
   metadataBase: new URL("https://forkit.food"),
   openGraph: {
     title: "fork it.",
@@ -38,7 +38,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} h-full antialiased`}>
+    <html lang="en" className={`${inter.variable} h-full antialiased`} style={{ colorScheme: 'light' }}>
       <body className="min-h-full flex flex-col font-sans">
         {children}
         <Analytics />

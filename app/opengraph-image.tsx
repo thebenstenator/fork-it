@@ -44,7 +44,7 @@ export default async function Image() {
             marginBottom: 48,
           }}
         >
-          Fork what's in your fridge. Dinner sorted.
+          Real dinner ideas from whatever you've got.
         </div>
 
         {/* Amber accent bar */}

@@ -47,9 +47,13 @@ export function IngredientInput({ onSubmit, isLoading }: IngredientInputProps) {
 
   return (
     <form onSubmit={handleSubmit(handleFormSubmit)} className="space-y-3">
+      <label htmlFor="ingredients" className="block text-sm font-medium text-stone-600">
+        Enter 3 or 4 ingredients you have on hand and we&apos;ll find you some dinner ideas.
+      </label>
       <div className="relative">
         <Textarea
           {...register('ingredients')}
+          id="ingredients"
           placeholder="e.g. chicken thighs, half an onion, rice, whatever's in the back of your pantry..."
           className={cn(
             'min-h-[100px] resize-none text-base leading-relaxed',

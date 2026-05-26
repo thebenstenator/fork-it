@@ -22,7 +22,7 @@ export default function Home() {
             fork it.
           </h1>
           <p className="text-stone-500">
-            Fork what&apos;s in your fridge. Dinner sorted.
+            Real dinner ideas from whatever you&apos;ve got.
           </p>
         </header>
 
