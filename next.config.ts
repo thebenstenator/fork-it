@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 import withPWA from "@ducanh2912/next-pwa";
 
 const nextConfig: NextConfig = {
+  turbopack: {}, // silence Turbopack/webpack conflict warning from next-pwa (SW is disabled in dev anyway)
   images: {
     remotePatterns: [
       {
