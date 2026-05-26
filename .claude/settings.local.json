@@ -17,7 +17,8 @@
       "PowerShell(npm install posthog-js)",
       "PowerShell(npx tsc --noEmit)",
       "PowerShell(npm install @ducanh2912/next-pwa)",
-      "PowerShell(git add next.config.ts)"
+      "PowerShell(git add next.config.ts)",
+      "WebSearch"
     ]
   }
 }

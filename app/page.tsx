@@ -5,6 +5,7 @@ import { IngredientInput } from "@/components/IngredientInput";
 import { FilterChips } from "@/components/FilterChips";
 import { MealSuggestions } from "@/components/MealSuggestions";
 import { KofiPrompt } from "@/components/KofiPrompt";
+import { HistoryLink } from "@/components/HistoryLink";
 import { useMealSuggestions } from "@/hooks/useMealSuggestions";
 
 export default function Home() {
@@ -61,6 +62,8 @@ export default function Home() {
             >
               ☕ Buy me a coffee
             </a>
+            {" · "}
+            <HistoryLink />
           </p>
           <p>
             Recipes via{" "}

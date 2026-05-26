@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { type SuggestResponse } from '@/lib/types'
+import { pushHistory } from '@/lib/history'
 
 interface UseMealSuggestionsReturn {
   data: SuggestResponse | null
@@ -33,7 +34,11 @@ export function useMealSuggestions(): UseMealSuggestionsReturn {
         return
       }
 
-      setData(json as SuggestResponse)
+      const response = json as SuggestResponse
+      setData(response)
+
+      // Auto-save to local history (no account needed)
+      pushHistory({ ingredients, filters, response })
     } catch {
       setError('Network error. Check your connection and try again.')
     } finally {
