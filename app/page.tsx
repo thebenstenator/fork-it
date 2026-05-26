@@ -2,6 +2,7 @@
 
 import { IngredientInput } from "@/components/IngredientInput";
 import { MealSuggestions } from "@/components/MealSuggestions";
+import { KofiPrompt } from "@/components/KofiPrompt";
 import { useMealSuggestions } from "@/hooks/useMealSuggestions";
 
 export default function Home() {
@@ -30,6 +31,9 @@ export default function Home() {
 
         {/* Results */}
         <MealSuggestions data={data} isLoading={isLoading} error={error} />
+
+        {/* Ko-fi prompt — appears once after first successful result */}
+        <KofiPrompt show={!!data && !isLoading} />
 
         {/* Footer */}
         <footer className="pt-8 border-t border-stone-200 space-y-1 text-xs text-stone-400">

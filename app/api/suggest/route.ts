@@ -4,7 +4,7 @@ import { normalizeIngredients, enrichRecipes, generateFallbackRecipes } from '@/
 import { searchRecipes } from '@/lib/spoonacular'
 import { buildCacheKey, getCachedResponse, setCachedResponse } from '@/lib/cache'
 import { getToolAffiliateLink, getIngredientAffiliateLinks, getMealKitUrl } from '@/lib/affiliates'
-// import { ratelimit } from '@/lib/ratelimit' // Uncomment in Slice 2
+import { ratelimit } from '@/lib/ratelimit'
 
 // Spoonacular match quality threshold — below this we treat it as no match
 const GOOD_MATCH_THRESHOLD = 3
@@ -25,16 +25,16 @@ export async function POST(req: NextRequest) {
     const { ingredients: rawIngredients, filters } = parsed.data
 
     // ------------------------------------------------------------------
-    // 2. Rate limit (Slice 2 — wired up but commented out for now)
+    // 2. Rate limit — 10 requests per IP per hour
     // ------------------------------------------------------------------
-    // const ip = req.headers.get('x-forwarded-for') ?? '127.0.0.1'
-    // const { success } = await ratelimit.limit(ip)
-    // if (!success) {
-    //   return NextResponse.json(
-    //     { error: "You've made a lot of requests. Try again in an hour!", code: 'RATE_LIMITED' },
-    //     { status: 429 }
-    //   )
-    // }
+    const ip = req.headers.get('x-forwarded-for') ?? '127.0.0.1'
+    const { success } = await ratelimit.limit(ip)
+    if (!success) {
+      return NextResponse.json(
+        { error: "You've been busy! Try again in an hour.", code: 'RATE_LIMITED' },
+        { status: 429 }
+      )
+    }
 
     // ------------------------------------------------------------------
     // 3. Normalize ingredients (Claude — cheap fast call)

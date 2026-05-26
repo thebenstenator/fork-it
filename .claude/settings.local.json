@@ -10,7 +10,10 @@
       "PowerShell(git remote add origin https://github.com/thebenstenator/fork-it.git)",
       "PowerShell(git add .)",
       "PowerShell(git add .gitignore .env.example)",
-      "PowerShell(git push -u origin main)"
+      "PowerShell(git push -u origin main)",
+      "PowerShell(git push)",
+      "PowerShell(npm install @vercel/analytics)",
+      "PowerShell(npx tsc --noEmit 2>&1)"
     ]
   }
 }

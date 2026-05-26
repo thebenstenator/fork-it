@@ -1,7 +1,8 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
+import { motion, AnimatePresence } from 'framer-motion'
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { RecipeDetail } from './RecipeDetail'
@@ -15,22 +16,29 @@ interface MealCardProps {
 export function MealCard({ meal }: MealCardProps) {
   const [isExpanded, setIsExpanded] = useState(false)
   const [imageError, setImageError] = useState(false)
-
-  const matchPercent =
-    meal.matchScore
-      ? Math.round((meal.matchScore.have / meal.matchScore.total) * 100)
-      : null
+  const expandButtonRef = useRef<HTMLButtonElement>(null)
 
   const showImage = meal.imageUrl && !imageError
+  const matchPercent = meal.matchScore
+    ? Math.round((meal.matchScore.have / meal.matchScore.total) * 100)
+    : null
+
+  // Escape key collapses the expanded card
+  useEffect(() => {
+    if (!isExpanded) return
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === 'Escape') {
+        setIsExpanded(false)
+        expandButtonRef.current?.focus()
+      }
+    }
+    document.addEventListener('keydown', handleKeyDown)
+    return () => document.removeEventListener('keydown', handleKeyDown)
+  }, [isExpanded])
 
   return (
-    <Card
-      className={cn(
-        'overflow-hidden transition-shadow duration-200',
-        'hover:shadow-md'
-      )}
-    >
-      {/* Recipe image — only rendered if URL exists and hasn't errored */}
+    <Card className={cn('overflow-hidden transition-shadow duration-200', 'hover:shadow-md')}>
+      {/* Recipe image */}
       {showImage && (
         <div className="relative h-40 w-full bg-stone-100">
           <Image
@@ -75,8 +83,9 @@ export function MealCard({ meal }: MealCardProps) {
           </p>
         )}
 
-        {/* Expand / collapse */}
+        {/* Expand / collapse toggle */}
         <button
+          ref={expandButtonRef}
           onClick={() => setIsExpanded((prev) => !prev)}
           className="text-sm font-medium text-amber-600 hover:text-amber-700 transition-colors"
           aria-expanded={isExpanded}
@@ -84,8 +93,21 @@ export function MealCard({ meal }: MealCardProps) {
           {isExpanded ? 'Hide recipe ↑' : 'See how →'}
         </button>
 
-        {/* Expanded recipe detail */}
-        {isExpanded && <RecipeDetail meal={meal} />}
+        {/* Smooth expand/collapse */}
+        <AnimatePresence initial={false}>
+          {isExpanded && (
+            <motion.div
+              key="recipe-detail"
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: 'auto', opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              transition={{ duration: 0.25, ease: 'easeInOut' }}
+              style={{ overflow: 'hidden' }}
+            >
+              <RecipeDetail meal={meal} />
+            </motion.div>
+          )}
+        </AnimatePresence>
       </CardContent>
     </Card>
   )
