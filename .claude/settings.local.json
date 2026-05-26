@@ -15,7 +15,8 @@
       "PowerShell(npm install @vercel/analytics)",
       "PowerShell(npx tsc --noEmit 2>&1)",
       "PowerShell(npm install posthog-js)",
-      "PowerShell(npx tsc --noEmit)"
+      "PowerShell(npx tsc --noEmit)",
+      "PowerShell(npm install @ducanh2912/next-pwa)"
     ]
   }
 }

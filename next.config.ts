@@ -1,15 +1,14 @@
 import type { NextConfig } from "next";
+import withPWA from "@ducanh2912/next-pwa";
 
 const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        // Spoonacular recipe images
         protocol: "https",
         hostname: "img.spoonacular.com",
       },
       {
-        // Spoonacular also serves images from spoonacular.com directly
         protocol: "https",
         hostname: "spoonacular.com",
       },
@@ -17,4 +16,13 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default withPWA({
+  dest: "public",
+  cacheOnFrontEndNav: true,
+  aggressiveFrontEndNavCaching: true,
+  reloadOnOnline: true,
+  disable: process.env.NODE_ENV === "development", // skip SW in dev to avoid caching headaches
+  workboxOptions: {
+    disableDevLogs: true,
+  },
+})(nextConfig);
