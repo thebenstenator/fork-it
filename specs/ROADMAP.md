@@ -4,75 +4,51 @@
 
 ---
 
-## Slice 1 — The Core Loop (MVP)
+## Slice 1 — The Core Loop (MVP) ✅
 **Goal:** A stranger can land on the site, type ingredients, and get 3 dinner ideas. Nothing else.
 
 ### Tasks
-- [ ] Initialize Next.js 14 project with TypeScript, Tailwind, ESLint, Prettier
-- [ ] Build `IngredientInput` component — single textarea, placeholder text that sets expectations ("e.g. chicken, rice, frozen peas, soy sauce"), submit button
-- [ ] Build `POST /api/suggest` route handler:
-  - Accept `{ ingredients: string, filters: string[] }`
-  - Validate with Zod (min 2 chars, max 500 chars)
-  - Check Upstash Redis cache (by normalized ingredient key) — return immediately if hit
-  - Call Claude to normalize messy input → clean ingredient list
-  - Call Spoonacular Recipe Search API with normalized ingredients
-  - Call Claude to enrich top 3 Spoonacular results (or generate if < 3 matches)
-  - Cache full enriched response in Redis (24h TTL)
-  - Return `{ meals: Meal[], source: 'hybrid' | 'ai' | 'cache' }`
-- [ ] Build `lib/spoonacular.ts` — Spoonacular API client with typed response parsing
-- [ ] Build `lib/claude.ts` — normalization prompt + enrichment prompt (two separate functions)
-- [ ] Build `lib/cache.ts` — Redis cache read/write helpers
-- [ ] Engineer both Claude prompts (see PROMPT_ENGINEERING.md)
-- [ ] Build `MealSuggestions` component — renders 3 `MealCard` components
-- [ ] Build `MealCard` — meal name, pitch, time estimate, ingredient match badge, expand toggle
-  - Match badge: "You have 7 of 9 ingredients" (from Spoonacular data; hidden for AI-generated cards)
-  - Recipe image with fallback placeholder for broken/missing images
-- [ ] Build `RecipeDetail` — numbered steps, shown when card is expanded
-- [ ] Basic loading state (skeleton cards while waiting)
-- [ ] Basic error state ("Something went wrong — try again")
-- [ ] Mobile-first responsive layout
-- [ ] Add "Recipes via Spoonacular" credit to footer (good practice per Spoonacular ToS)
-- [ ] Add Ko-fi link to footer
-- [ ] Deploy to Vercel
-
-### Definition of Done
-A real person on a phone can type ingredients and get useful meal ideas without confusion or errors. Spoonacular credit is in the footer. Ko-fi link is in the footer.
+- [x] Initialize Next.js project with TypeScript, Tailwind, ESLint, Prettier
+- [x] Build `IngredientInput` component — single textarea, placeholder text, submit button
+- [x] Build `POST /api/suggest` route handler (Zod validation, cache, Claude normalize, Spoonacular, Claude enrich, cache write)
+- [x] Build `lib/spoonacular.ts` — Spoonacular API client with typed response parsing
+- [x] Build `lib/claude.ts` — normalization prompt + enrichment prompt
+- [x] Build `lib/cache.ts` — Redis cache read/write helpers
+- [x] Build `MealSuggestions` + `MealCard` components
+- [x] Basic loading, error states, mobile-first layout
+- [x] "Recipes via Spoonacular" credit in footer
+- [x] Ko-fi link in footer
+- [x] Deploy to Vercel
 
 ---
 
-## Slice 2 — Polish & Performance
+## Slice 2 — Polish & Performance ✅
 **Goal:** The experience feels fast, smooth, and trustworthy.
 
 ### Tasks
-- [ ] Add Framer Motion animations — results animate in staggered, card expand is smooth
-- [ ] Improve loading state — animated skeleton that looks like meal cards
-- [ ] Add input character counter and validation feedback
-- [ ] "Try an example" button that pre-fills the input with a realistic scenario
-- [ ] Keyboard accessibility — Enter submits, Escape collapses expanded card
-- [ ] Focus management — after results load, focus moves to first result
-- [ ] Add rate limiting via Upstash Redis (max 10 requests/IP/hour)
-- [ ] Add `<meta>` tags, OG image, favicon, page title
-- [ ] Lighthouse audit — hit > 90 on performance, accessibility, best practices
-- [ ] Add Vercel Analytics
-- [ ] Ko-fi prompt — after results load successfully, show a subtle one-time prompt: "Find this useful? ☕ Buy me a coffee" — appears below results, dismissible, not repeated in same session
-
-### Definition of Done
-Lighthouse scores > 90. A user on a slow 3G connection still has a usable experience.
+- [x] Framer Motion animations — staggered results, smooth card expand
+- [x] Animated skeleton loading state
+- [x] Input character counter and validation feedback
+- [x] "Try an example" button
+- [x] Keyboard accessibility (Enter submits, Escape collapses)
+- [x] Focus management after results load
+- [x] Rate limiting via Upstash Redis (10 req/IP/hour)
+- [x] Meta tags, OG image, favicon, page title
+- [x] Vercel Analytics
+- [x] Ko-fi dismissible prompt after first results load
+- [x] PWA / installable (moved up from backlog)
 
 ---
 
-## Slice 3 — Dietary Filters
+## Slice 3 — Dietary Filters ✅
 **Goal:** Users can quickly communicate constraints without typing them.
 
 ### Tasks
-- [ ] Add optional filter chips below the input: `Vegetarian` `Dairy-Free` `Gluten-Free` `Quick (< 20 min)` `Kid-Friendly`
-- [ ] Pass selected filters to the API — inject into Spoonacular search params AND Claude enrichment prompt
-- [ ] Filters are toggleable, multi-select, and visually clear when active
-- [ ] Remember selected filters in `localStorage` for return visits
-- [ ] Add PostHog event tracking on filter usage to understand what people actually need
-
-### Definition of Done
-A user with dietary restrictions can get appropriate suggestions without typing their restrictions in the text box.
+- [x] Filter chips: `Vegetarian` `Dairy-Free` `Gluten-Free` `Quick (< 20 min)` `Kid-Friendly`
+- [x] Filters passed to Spoonacular search params + Claude enrichment prompt
+- [x] Toggleable, multi-select, visually clear active state
+- [x] Filters persisted in `localStorage`
+- [x] PostHog event tracking on filter usage
 
 ---
 
@@ -82,33 +58,50 @@ A user with dietary restrictions can get appropriate suggestions without typing 
 ### Tasks
 - [ ] Sign up for Amazon Associates
 - [ ] Sign up for HelloFresh / EveryPlate affiliate program
-- [ ] Build `lib/affiliates.ts` — maps tool names and ingredient names to pre-curated affiliate links
+- [ ] Replace placeholder ASINs in `lib/affiliates.ts` with real affiliate links
 - [ ] **Kitchen tool links:** When `toolSuggestion` is not null, render at bottom of expanded recipe: "💡 A good [tool] makes this easier → [Amazon link]"
-- [ ] **Missing ingredient links:** When user is missing 1–2 pantry staple ingredients, render: "Don't have [ingredient]? Grab some for next time → [Amazon link]" — only for stocked, fast-shipping pantry staples
-- [ ] **Meal kit offer:** When `showMealKitOffer` is true (missing 3+ ingredients), render: "Missing a few things? HelloFresh has something similar this week → [referral link]" — one per session maximum
-- [ ] Add affiliate disclosure notice to footer: "This page may contain affiliate links. We may earn a small commission at no cost to you."
-- [ ] Track all affiliate link clicks with PostHog
-- [ ] A/B test placement: bottom of recipe vs. inline within steps (tool links only)
-- [ ] Clearly label affiliate links visually (small "ad" tag or disclosure text)
+- [ ] **Missing ingredient links:** When user is missing 1–2 pantry staple ingredients, render: "Don't have [ingredient]? Grab some for next time → [Amazon link]"
+- [ ] **Meal kit offer:** When `showMealKitOffer` is true (missing 3+), render: "Missing a few things? HelloFresh has something similar this week → [referral link]" — once per session max
+- [ ] Add affiliate disclosure notice to footer
+- [ ] Track affiliate link clicks with PostHog
+- [ ] Clearly label affiliate links (small "ad" tag or disclosure text)
 
 ### Definition of Done
 All three affiliate link types appear naturally and contextually. Disclosure is visible. No user sees affiliate content unless they expand a recipe.
 
 ---
 
-## Slice 5 — Email Capture & Save
-**Goal:** Convert one-time users into returning ones.
+## Slice 5 — History & Accounts
+**Goal:** Let users revisit past results for free; let motivated users save favorites across sessions.
+
+### Two-tier design
+- **History** — free, no account required, automatic. Stored in `localStorage`.
+- **Favorites** — requires a free account. Stored in Supabase. No password ever — magic link only.
 
 ### Tasks
-- [ ] Set up Supabase project and `saved_meals` + `subscribers` tables
-- [ ] After results load, show non-intrusive prompt: "Save tonight's ideas? Drop your email →"
-- [ ] On email submit: save current meal suggestions to Supabase, associate with email
-- [ ] Send confirmation email via Resend with the saved ideas
-- [ ] Build simple `/saved/:token` page to view saved meals (no account/login needed — just a link)
+
+#### History (localStorage, everyone)
+- [ ] On every successful `/api/suggest` response, push the result to `localStorage["forkit:history"]`
+  - Store: `{ id, ingredients, filters, meals, searchedAt }`
+  - Cap at 20 entries (trim oldest when over limit)
+- [ ] Build `/history` page — shows last 20 searches as compact cards (meal names + ingredient snippet + date)
+- [ ] Clicking a history card re-expands the full results inline (reads from localStorage — no API call)
+- [ ] Add "History" link to nav/footer (only visible if `forkit:history` has entries)
+- [ ] "Clear history" button on `/history` page
+
+#### Accounts & Favorites (Supabase auth, opt-in)
+- [ ] Set up Supabase project — `favorites` table: `(id, user_id, meal_data jsonb, saved_at)`
+- [ ] Add magic-link email auth via Supabase Auth (no passwords, no forms beyond email input)
+- [ ] Heart button (♡) on each `MealCard` — visible always, triggers sign-in prompt if not authenticated
+- [ ] Sign-in flow: modal overlay → "Enter your email, we'll send you a link" → done. No password.
+- [ ] On heart click (authenticated): save meal to Supabase `favorites`, optimistic UI update
+- [ ] Build `/favorites` page — shows saved meals as full cards, accessible after sign-in
+- [ ] "Remove from favorites" on `/favorites` page
+- [ ] Returning users auto-signed-in via Supabase session cookie — no friction on repeat visits
 - [ ] Add Sentry for error monitoring
 
 ### Definition of Done
-A user can get their meal ideas emailed to them without creating an account.
+Any user can see their last 20 searches without touching an account. A user who signs up (magic link only) can heart recipes and find them again at `/favorites` from any device.
 
 ---
 
@@ -118,7 +111,7 @@ A user can get their meal ideas emailed to them without creating an account.
 ### Tasks
 - [ ] Research 20–30 high-intent ingredient combination keywords
 - [ ] Build a static `/ideas/[slug]` page for each (e.g. `/ideas/chicken-rice-beans`)
-- [ ] Pre-generate content using Spoonacular + Claude enrichment at build time (SSG) — real recipes with real images
+- [ ] Pre-generate content using Spoonacular + Claude enrichment at build time (SSG)
 - [ ] Internal linking between related pages
 - [ ] Submit sitemap to Google Search Console
 - [ ] Write 2–3 blog posts targeting "what to make with [X]" long-tail queries
@@ -135,7 +128,7 @@ At least 5 pages indexed and appearing in Google Search Console within 30 days o
 - **Serving size input** — "cooking for 2 / cooking for a family of 5"
 - **"I don't want to use the stove"** — oven-only, microwave, air fryer modes
 - **Recipe rating** — thumbs up/down to improve suggestions over time
-- **Weekly digest email** — "Here are 5 dinner ideas based on what's usually in your fridge"
-- **PWA / installable** — add to home screen for kitchen use
+- **Weekly digest email** — "Here are 5 dinner ideas based on what's usually in your fridge" (for signed-in users)
 - **Voice input** — speak your ingredients (especially useful with messy hands)
 - **Upgrade to Spoonacular paid tier** — if organic traffic from Slice 6 pushes past free tier limits
+- **Export / share** — shareable link or PDF for a result set

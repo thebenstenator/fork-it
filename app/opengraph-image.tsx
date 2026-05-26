@@ -44,7 +44,7 @@ export default async function Image() {
             marginBottom: 48,
           }}
         >
-          Real dinner ideas from whatever you've got.
+          Real dinner ideas from whatever you&apos;ve got.
         </div>
 
         {/* Amber accent bar */}

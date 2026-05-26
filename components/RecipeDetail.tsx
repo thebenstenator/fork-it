@@ -1,3 +1,6 @@
+'use client'
+
+import posthog from 'posthog-js'
 import { type Meal } from '@/lib/types'
 
 interface RecipeDetailProps {
@@ -19,14 +22,16 @@ export function RecipeDetail({ meal }: RecipeDetailProps) {
         ))}
       </ol>
 
-      {/* Affiliate block — only one appears per card, in priority order */}
+      {/* Affiliate block — only one category appears per card, in priority order */}
       <div className="space-y-2 pt-1">
         {/* Meal kit offer — highest priority, shown when missing 3+ ingredients */}
-        {meal.showMealKitOffer && (
+        {meal.showMealKitOffer && meal.mealKitUrl && (
           <AffiliateLink
-            href={`https://www.hellofresh.com`} // replaced by real link in Slice 4
+            href={meal.mealKitUrl}
             label="Missing a few things? HelloFresh has something similar this week"
             emoji="🛒"
+            trackAs="meal_kit"
+            mealName={meal.name}
           />
         )}
 
@@ -36,6 +41,8 @@ export function RecipeDetail({ meal }: RecipeDetailProps) {
             href={meal.affiliateToolLink}
             label={`A good ${meal.toolSuggestion} makes this easier`}
             emoji="💡"
+            trackAs="tool"
+            mealName={meal.name}
           />
         )}
 
@@ -47,6 +54,8 @@ export function RecipeDetail({ meal }: RecipeDetailProps) {
               href={link.url}
               label={`Don't have ${link.ingredient}? Grab some for next time`}
               emoji="🛍️"
+              trackAs="ingredient"
+              mealName={meal.name}
             />
           ))}
       </div>
@@ -58,11 +67,23 @@ function AffiliateLink({
   href,
   label,
   emoji,
+  trackAs,
+  mealName,
 }: {
   href: string
   label: string
   emoji: string
+  trackAs: 'meal_kit' | 'tool' | 'ingredient'
+  mealName: string
 }) {
+  function handleClick() {
+    posthog.capture('affiliate_link_clicked', {
+      link_type: trackAs,
+      meal_name: mealName,
+      href,
+    })
+  }
+
   return (
     <p className="text-xs text-stone-400">
       {emoji}{' '}
@@ -71,6 +92,7 @@ function AffiliateLink({
         target="_blank"
         rel="noopener noreferrer nofollow"
         className="text-amber-600 hover:underline"
+        onClick={handleClick}
       >
         {label} →
       </a>{' '}

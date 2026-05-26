@@ -118,6 +118,7 @@ export async function POST(req: NextRequest) {
     // ------------------------------------------------------------------
     const mealsWithAffiliates: Meal[] = enrichedMeals.map((meal) => ({
       ...meal,
+      mealKitUrl: meal.showMealKitOffer ? getMealKitUrl() : null,
       affiliateToolLink: meal.toolSuggestion
         ? getToolAffiliateLink(meal.toolSuggestion)?.url ?? null
         : null,

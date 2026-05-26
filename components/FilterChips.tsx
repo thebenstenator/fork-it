@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { cn } from '@/lib/utils'
 import { usePostHog } from 'posthog-js/react'
@@ -21,24 +21,30 @@ interface FilterChipsProps {
   onChange: (filters: string[]) => void
 }
 
+function readPersistedFilters(): string[] {
+  if (typeof window === 'undefined') return []
+  try {
+    const stored = localStorage.getItem(STORAGE_KEY)
+    return stored ? (JSON.parse(stored) as string[]) : []
+  } catch {
+    return []
+  }
+}
+
 export function FilterChips({ onChange }: FilterChipsProps) {
-  const [selected, setSelected] = useState<string[]>([])
+  // Lazy initializer reads localStorage once on mount — no effect needed for the state itself
+  const [selected, setSelected] = useState<string[]>(readPersistedFilters)
   const posthog = usePostHog()
 
-  // Restore persisted filters on mount
+  // Notify parent of any persisted initial filters once after hydration.
+  // We only call onChange here (not setSelected), so no cascading setState.
+  const initialFilters = useRef(selected)
   useEffect(() => {
-    try {
-      const stored = localStorage.getItem(STORAGE_KEY)
-      if (stored) {
-        const parsed: string[] = JSON.parse(stored)
-        setSelected(parsed)
-        onChange(parsed)
-      }
-    } catch {
-      // Ignore parse errors
+    if (initialFilters.current.length > 0) {
+      onChange(initialFilters.current)
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, []) // intentionally once on mount
 
   function toggle(id: string) {
     const isCurrentlyActive = selected.includes(id)
@@ -55,7 +61,6 @@ export function FilterChips({ onChange }: FilterChipsProps) {
       // Storage unavailable — non-fatal
     }
 
-    // PostHog event tracking
     posthog?.capture('filter_toggled', {
       filter: id,
       action: isCurrentlyActive ? 'removed' : 'added',

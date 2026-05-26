@@ -56,6 +56,7 @@ export const MealSchema = z.object({
   toolSuggestion: z.string().nullable(),
   missingCount: z.number().int().min(0),
   showMealKitOffer: z.boolean().default(false),
+  mealKitUrl: z.string().url().nullable().optional(),
   affiliateToolLink: z.string().url().nullable().optional(),
   affiliateIngredientLinks: z
     .array(

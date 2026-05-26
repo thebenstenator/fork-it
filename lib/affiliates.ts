@@ -101,6 +101,6 @@ export function getIngredientAffiliateLinks(
 // ---------------------------------------------------------------------------
 
 export function getMealKitUrl(): string {
-  if (!HELLOFRESH_ID) return ''
-  return `https://www.hellofresh.com/?c=${HELLOFRESH_ID}`
+  const base = 'https://www.hellofresh.com'
+  return HELLOFRESH_ID ? `${base}/?c=${HELLOFRESH_ID}` : base
 }

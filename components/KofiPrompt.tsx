@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const KOFI_URL = 'https://ko-fi.com/benanderson5809'
@@ -10,14 +10,14 @@ interface KofiPromptProps {
   show: boolean
 }
 
-export function KofiPrompt({ show }: KofiPromptProps) {
-  const [dismissed, setDismissed] = useState(true) // start hidden to avoid flash
+function readDismissed(): boolean {
+  if (typeof window === 'undefined') return true // hidden during SSR to avoid flash
+  return Boolean(sessionStorage.getItem(SESSION_KEY))
+}
 
-  // Check sessionStorage after mount (client-only)
-  useEffect(() => {
-    const wasDismissed = sessionStorage.getItem(SESSION_KEY)
-    if (!wasDismissed) setDismissed(false)
-  }, [])
+export function KofiPrompt({ show }: KofiPromptProps) {
+  // Lazy initializer reads sessionStorage once on mount — no effect needed
+  const [dismissed, setDismissed] = useState<boolean>(readDismissed)
 
   function dismiss() {
     setDismissed(true)
