@@ -2,7 +2,8 @@
 
 import { useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { type SuggestResponse } from '@/lib/types'
+import { type SuggestResponse, type Meal } from '@/lib/types'
+import { type User } from '@supabase/supabase-js'
 import { MealCard } from './MealCard'
 import { MealCardSkeleton } from './MealCardSkeleton'
 
@@ -10,9 +11,19 @@ interface MealSuggestionsProps {
   data: SuggestResponse | null
   isLoading: boolean
   error: string | null
+  user: User | null
+  isFavorited: (mealId: string) => boolean
+  onToggleFavorite: (meal: Meal) => Promise<void>
 }
 
-export function MealSuggestions({ data, isLoading, error }: MealSuggestionsProps) {
+export function MealSuggestions({
+  data,
+  isLoading,
+  error,
+  user,
+  isFavorited,
+  onToggleFavorite,
+}: MealSuggestionsProps) {
   const firstCardRef = useRef<HTMLDivElement>(null)
 
   // Focus the first card when results load
@@ -75,7 +86,12 @@ export function MealSuggestions({ data, isLoading, error }: MealSuggestionsProps
             ref={index === 0 ? firstCardRef : undefined}
             tabIndex={index === 0 ? -1 : undefined}
           >
-            <MealCard meal={meal} />
+            <MealCard
+              meal={meal}
+              user={user}
+              isFavorited={isFavorited(meal.id)}
+              onToggleFavorite={onToggleFavorite}
+            />
           </motion.div>
         ))}
       </AnimatePresence>

@@ -1,0 +1,10 @@
+import { createBrowserClient } from '@supabase/ssr'
+
+// Call this in client components / hooks to get a Supabase browser client.
+// The client is lightweight — safe to call on every render.
+export function createClient() {
+  return createBrowserClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+  )
+}

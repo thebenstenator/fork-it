@@ -6,14 +6,19 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { RecipeDetail } from './RecipeDetail'
+import { HeartButton } from './HeartButton'
 import { type Meal } from '@/lib/types'
+import { type User } from '@supabase/supabase-js'
 import { cn } from '@/lib/utils'
 
 interface MealCardProps {
   meal: Meal
+  user: User | null
+  isFavorited: boolean
+  onToggleFavorite: (meal: Meal) => Promise<void>
 }
 
-export function MealCard({ meal }: MealCardProps) {
+export function MealCard({ meal, user, isFavorited, onToggleFavorite }: MealCardProps) {
   const [isExpanded, setIsExpanded] = useState(false)
   const [imageError, setImageError] = useState(false)
   const expandButtonRef = useRef<HTMLButtonElement>(null)
@@ -57,12 +62,20 @@ export function MealCard({ meal }: MealCardProps) {
           <h2 className="text-lg font-bold text-stone-900 leading-tight">
             {meal.name}
           </h2>
-          <Badge
-            variant="secondary"
-            className="shrink-0 bg-amber-100 text-amber-700 font-mono text-xs"
-          >
-            {meal.timeEstimate}
-          </Badge>
+          <div className="flex items-center gap-2 shrink-0">
+            <HeartButton
+              meal={meal}
+              user={user}
+              isFavorited={isFavorited}
+              onToggle={onToggleFavorite}
+            />
+            <Badge
+              variant="secondary"
+              className="bg-amber-100 text-amber-700 font-mono text-xs"
+            >
+              {meal.timeEstimate}
+            </Badge>
+          </div>
         </div>
 
         {/* Pitch */}

@@ -2,11 +2,16 @@
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { type User } from '@supabase/supabase-js'
 import { MealCard } from './MealCard'
 import { type HistoryEntry } from '@/lib/history'
+import { type Meal } from '@/lib/types'
 
 interface HistoryCardProps {
   entry: HistoryEntry
+  user: User | null
+  isFavorited: (mealId: string) => boolean
+  onToggleFavorite: (meal: Meal) => Promise<void>
 }
 
 function formatDate(iso: string): string {
@@ -28,7 +33,7 @@ function truncate(str: string, max: number): string {
   return str.length > max ? str.slice(0, max).trimEnd() + '…' : str
 }
 
-export function HistoryCard({ entry }: HistoryCardProps) {
+export function HistoryCard({ entry, user, isFavorited, onToggleFavorite }: HistoryCardProps) {
   const [isExpanded, setIsExpanded] = useState(false)
 
   const mealNames = entry.response.meals.map((m) => m.name).join(', ')
@@ -81,7 +86,13 @@ export function HistoryCard({ entry }: HistoryCardProps) {
           >
             <div className="border-t border-stone-100 p-4 space-y-4 bg-stone-50">
               {entry.response.meals.map((meal) => (
-                <MealCard key={meal.id} meal={meal} />
+                <MealCard
+                  key={meal.id}
+                  meal={meal}
+                  user={user}
+                  isFavorited={isFavorited(meal.id)}
+                  onToggleFavorite={onToggleFavorite}
+                />
               ))}
             </div>
           </motion.div>

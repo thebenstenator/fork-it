@@ -7,10 +7,15 @@ import { MealSuggestions } from "@/components/MealSuggestions";
 import { KofiPrompt } from "@/components/KofiPrompt";
 import { HistoryLink } from "@/components/HistoryLink";
 import { useMealSuggestions } from "@/hooks/useMealSuggestions";
+import { useAuth } from "@/hooks/useAuth";
+import { useFavorites } from "@/hooks/useFavorites";
+import Link from "next/link";
 
 export default function Home() {
   const { data, isLoading, error, fetchSuggestions } = useMealSuggestions();
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
+  const { user } = useAuth();
+  const { toggleFavorite, isFavorited } = useFavorites(user);
 
   function handleSubmit(ingredients: string) {
     fetchSuggestions(ingredients, activeFilters);
@@ -36,7 +41,14 @@ export default function Home() {
         <FilterChips onChange={setActiveFilters} />
 
         {/* Results */}
-        <MealSuggestions data={data} isLoading={isLoading} error={error} />
+        <MealSuggestions
+          data={data}
+          isLoading={isLoading}
+          error={error}
+          user={user}
+          isFavorited={isFavorited}
+          onToggleFavorite={toggleFavorite}
+        />
 
         {/* Ko-fi prompt — appears once after first successful result */}
         <KofiPrompt show={!!data && !isLoading} />
@@ -64,6 +76,10 @@ export default function Home() {
             </a>
             {" · "}
             <HistoryLink />
+            {" · "}
+            <Link href="/favorites" className="hover:text-stone-600 transition-colors">
+              Saved recipes
+            </Link>
           </p>
           <p>
             Recipes via{" "}

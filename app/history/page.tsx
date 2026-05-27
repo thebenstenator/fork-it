@@ -5,9 +5,13 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { HistoryCard } from '@/components/HistoryCard'
 import { getHistory, clearHistory, type HistoryEntry } from '@/lib/history'
+import { useAuth } from '@/hooks/useAuth'
+import { useFavorites } from '@/hooks/useFavorites'
 
 export default function HistoryPage() {
   const [entries, setEntries] = useState<HistoryEntry[]>(() => getHistory())
+  const { user } = useAuth()
+  const { toggleFavorite, isFavorited } = useFavorites(user)
 
   function handleClear() {
     clearHistory()
@@ -75,7 +79,12 @@ export default function HistoryPage() {
                   visible: { opacity: 1, y: 0, transition: { duration: 0.2 } },
                 }}
               >
-                <HistoryCard entry={entry} />
+                <HistoryCard
+                  entry={entry}
+                  user={user}
+                  isFavorited={isFavorited}
+                  onToggleFavorite={toggleFavorite}
+                />
               </motion.div>
             ))}
           </motion.div>
