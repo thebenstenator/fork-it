@@ -5,7 +5,11 @@ import { IngredientInput } from "@/components/IngredientInput";
 import { FilterChips } from "@/components/FilterChips";
 import { MealSuggestions } from "@/components/MealSuggestions";
 import { KofiPrompt } from "@/components/KofiPrompt";
-import { HistoryLink } from "@/components/HistoryLink";
+import dynamic from "next/dynamic";
+const HistoryLink = dynamic(
+  () => import("@/components/HistoryLink").then((m) => m.HistoryLink),
+  { ssr: false }
+);
 import { useMealSuggestions } from "@/hooks/useMealSuggestions";
 import { useAuth } from "@/hooks/useAuth";
 import { useFavorites } from "@/hooks/useFavorites";
@@ -55,8 +59,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="pt-8 border-t border-stone-200 space-y-1 text-xs text-stone-400">
-          {/* suppressHydrationWarning: HistoryLink reads localStorage which differs server/client */}
-          <p suppressHydrationWarning>
+          <p>
             Built by{" "}
             <a
               href="https://github.com/thebenstenator"
