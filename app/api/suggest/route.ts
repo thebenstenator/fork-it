@@ -106,7 +106,7 @@ export async function POST(req: NextRequest) {
         ...meal,
         imageUrl: null,
         matchScore: null,
-        missingIngredients: [],
+        missingIngredients: meal.missingIngredientNames ?? [],
         showMealKitOffer: meal.missingCount >= 3,
       }))
 

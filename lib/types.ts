@@ -101,6 +101,9 @@ export const ClaudeEnrichmentSchema = z.object({
       steps: z.array(z.string()).min(2).max(12),
       toolSuggestion: z.string().nullable(),
       missingCount: z.number().int().min(0),
+      // Named list of missing non-pantry ingredients — populated by Claude for
+      // AI-generated cards (Spoonacular cards get this from the API response instead)
+      missingIngredientNames: z.array(z.string()).optional(),
     })
   ),
 })
