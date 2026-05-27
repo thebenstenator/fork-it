@@ -28,9 +28,8 @@ RULES:
 3. Keep steps practical and non-chef. Assume a tired weeknight parent, not a culinary student.
 4. The toolSuggestion should be one common kitchen tool that would genuinely make this recipe easier — or null if nothing specific applies. Do not invent a need for a tool.
 5. Set missingCount to the number of non-pantry-staple ingredients the user is missing. Pantry staples (salt, pepper, oil, butter, garlic, basic dried spices, soy sauce, vinegar) do not count as missing.
-6. Set missingIngredientNames to the actual names of those missing non-pantry-staple ingredients (max 5). Empty array if none.
-7. Never suggest the same cuisine type for more than one result — give variety across the set.
-8. Be honest. "This is simple but satisfying" beats "Amazing restaurant-quality dish!"
+6. Never suggest the same cuisine type for more than one result — give variety across the set.
+7. Be honest. "This is simple but satisfying" beats "Amazing restaurant-quality dish!"
 
 OUTPUT FORMAT:
 Respond ONLY with valid JSON matching this exact schema. No markdown, no preamble, no explanation outside the JSON.
@@ -48,8 +47,7 @@ Respond ONLY with valid JSON matching this exact schema. No markdown, no preambl
         "Step 3."
       ],
       "toolSuggestion": "wok | sheet pan | cast iron skillet | null",
-      "missingCount": 0,
-      "missingIngredientNames": ["ingredient1", "ingredient2"]
+      "missingCount": 0
     }
   ]
 }`
@@ -132,7 +130,7 @@ export async function enrichRecipes(
 
   const message = await client.messages.create({
     model: 'claude-sonnet-4-6',
-    max_tokens: 2048,
+    max_tokens: 3072,
     system: ENRICHMENT_SYSTEM_PROMPT,
     messages: [
       {
@@ -162,7 +160,7 @@ export async function generateFallbackRecipes(
 
   const message = await client.messages.create({
     model: 'claude-sonnet-4-6',
-    max_tokens: 2048,
+    max_tokens: 3072,
     system: FALLBACK_SYSTEM_PROMPT,
     messages: [
       {
