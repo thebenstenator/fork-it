@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import posthog from 'posthog-js'
 import { type Meal } from '@/lib/types'
@@ -14,7 +14,7 @@ export function RecipeDetail({ meal }: RecipeDetailProps) {
       <ol className="space-y-3">
         {meal.steps.map((step, i) => (
           <li key={i} className="flex gap-3 text-sm text-stone-700 leading-relaxed">
-            <span className="shrink-0 flex h-6 w-6 items-center justify-center rounded-full bg-amber-100 text-amber-700 text-xs font-semibold">
+            <span className="shrink-0 flex h-6 w-6 items-center justify-center rounded-full bg-red-100 text-red-800 text-xs font-semibold">
               {i + 1}
             </span>
             <span>{step}</span>
@@ -91,7 +91,7 @@ function AffiliateLink({
         href={href}
         target="_blank"
         rel="noopener noreferrer nofollow"
-        className="text-amber-600 hover:underline"
+        className="text-red-800 hover:underline"
         onClick={handleClick}
       >
         {label} →

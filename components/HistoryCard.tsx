@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -59,14 +59,14 @@ export function HistoryCard({ entry, user, isFavorited, onToggleFavorite }: Hist
             </p>
             {/* Filters */}
             {filterLabels && (
-              <p className="text-xs text-amber-600">{filterLabels}</p>
+              <p className="text-xs text-red-800">{filterLabels}</p>
             )}
           </div>
           <div className="shrink-0 flex flex-col items-end gap-1">
             <span className="text-xs text-stone-400 whitespace-nowrap">
               {formatDate(entry.searchedAt)}
             </span>
-            <span className="text-xs text-amber-600 font-medium">
+            <span className="text-xs text-red-800 font-medium">
               {isExpanded ? 'Hide ↑' : 'Show →'}
             </span>
           </div>

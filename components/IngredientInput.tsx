@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
@@ -57,8 +57,8 @@ export function IngredientInput({ onSubmit, isLoading }: IngredientInputProps) {
           placeholder="e.g. chicken thighs, half an onion, rice, whatever's in the back of your pantry..."
           className={cn(
             'min-h-[100px] resize-none text-base leading-relaxed',
-            'focus-visible:ring-amber-500',
-            errors.ingredients && 'border-red-500 focus-visible:ring-red-500'
+            'focus-visible:ring-red-700',
+            errors.ingredients && 'border-red-500 focus-visible:ring-red-700'
           )}
           disabled={isLoading}
           aria-describedby={errors.ingredients ? 'ingredients-error' : undefined}
@@ -69,7 +69,7 @@ export function IngredientInput({ onSubmit, isLoading }: IngredientInputProps) {
       </div>
 
       {errors.ingredients && (
-        <p id="ingredients-error" className="text-sm text-red-600" role="alert">
+        <p id="ingredients-error" className="text-sm text-red-800" role="alert">
           {errors.ingredients.message}
         </p>
       )}
@@ -78,7 +78,7 @@ export function IngredientInput({ onSubmit, isLoading }: IngredientInputProps) {
         <Button
           type="submit"
           disabled={isLoading}
-          className="w-full bg-amber-600 text-white hover:bg-amber-700 sm:flex-1"
+          className="w-full bg-red-800 text-white hover:bg-red-900 sm:flex-1"
         >
           {isLoading ? 'Thinking about dinner...' : 'What can I make?'}
         </Button>

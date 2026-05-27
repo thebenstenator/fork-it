@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState } from 'react'
 import Link from 'next/link'
@@ -27,7 +27,7 @@ export default function HistoryPage() {
           <div>
             <Link
               href="/"
-              className="text-sm text-amber-600 hover:text-amber-700 transition-colors mb-2 inline-block"
+              className="text-sm text-red-800 hover:text-red-900 transition-colors mb-2 inline-block"
             >
               ← Back
             </Link>
@@ -42,7 +42,7 @@ export default function HistoryPage() {
           {entries.length > 0 && (
             <button
               onClick={handleClear}
-              className="cursor-pointer shrink-0 text-sm text-stone-400 hover:text-red-500 transition-colors"
+              className="cursor-pointer shrink-0 text-sm text-stone-400 hover:text-red-700 transition-colors"
             >
               Clear all
             </button>
@@ -56,7 +56,7 @@ export default function HistoryPage() {
             <p className="text-stone-500">No searches yet.</p>
             <Link
               href="/"
-              className="inline-block text-sm font-medium text-amber-600 hover:text-amber-700 transition-colors"
+              className="inline-block text-sm font-medium text-red-800 hover:text-red-900 transition-colors"
             >
               Find something to make →
             </Link>

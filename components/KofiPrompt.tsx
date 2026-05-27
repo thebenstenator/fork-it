@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -40,7 +40,7 @@ export function KofiPrompt({ show }: KofiPromptProps) {
               href={KOFI_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-amber-600 hover:text-amber-700 font-medium transition-colors"
+              className="text-red-800 hover:text-red-900 font-medium transition-colors"
             >
               ☕ Buy me a coffee
             </a>

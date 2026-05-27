@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
@@ -68,7 +68,7 @@ export function MealCard({ meal, user, isFavorited, onToggleFavorite }: MealCard
             />
             <Badge
               variant="secondary"
-              className="bg-amber-100 text-amber-700 font-mono text-xs"
+              className="bg-red-100 text-red-800 font-mono text-xs"
             >
               {meal.timeEstimate}
             </Badge>
@@ -100,7 +100,7 @@ export function MealCard({ meal, user, isFavorited, onToggleFavorite }: MealCard
         <button
           ref={expandButtonRef}
           onClick={() => setIsExpanded((prev) => !prev)}
-          className="cursor-pointer text-sm font-medium text-amber-600 hover:text-amber-700 transition-colors"
+          className="cursor-pointer text-sm font-medium text-red-800 hover:text-red-900 transition-colors"
           aria-expanded={isExpanded}
         >
           {isExpanded ? 'Hide recipe ↑' : 'See how →'}

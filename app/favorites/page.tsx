@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -24,7 +24,7 @@ export default function FavoritesPage() {
           <div>
             <Link
               href="/"
-              className="text-sm text-amber-600 hover:text-amber-700 transition-colors mb-2 inline-block"
+              className="text-sm text-red-800 hover:text-red-900 transition-colors mb-2 inline-block"
             >
               ← Back
             </Link>
@@ -53,7 +53,7 @@ export default function FavoritesPage() {
             </p>
             <button
               onClick={() => setShowAuthModal(true)}
-              className="cursor-pointer inline-block rounded-lg bg-amber-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-amber-700 transition-colors"
+              className="cursor-pointer inline-block rounded-lg bg-red-800 px-5 py-2.5 text-sm font-medium text-white hover:bg-red-900 transition-colors"
             >
               Sign in with email →
             </button>
@@ -74,7 +74,7 @@ export default function FavoritesPage() {
             <p className="text-stone-500">No saved recipes yet.</p>
             <Link
               href="/"
-              className="inline-block text-sm font-medium text-amber-600 hover:text-amber-700 transition-colors"
+              className="inline-block text-sm font-medium text-red-800 hover:text-red-900 transition-colors"
             >
               Find something to make →
             </Link>

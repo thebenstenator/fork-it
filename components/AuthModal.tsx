@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -73,7 +73,7 @@ export function AuthModal({ open, onClose }: AuthModalProps) {
                 </p>
                 <button
                   onClick={handleClose}
-                  className="mt-2 text-sm text-amber-600 hover:text-amber-700 font-medium transition-colors"
+                  className="mt-2 text-sm text-red-800 hover:text-red-900 font-medium transition-colors"
                 >
                   Got it
                 </button>
@@ -95,11 +95,11 @@ export function AuthModal({ open, onClose }: AuthModalProps) {
                     placeholder="you@example.com"
                     required
                     autoFocus
-                    className="w-full rounded-lg border border-stone-300 px-3 py-2.5 text-sm text-stone-900 placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-amber-500"
+                    className="w-full rounded-lg border border-stone-300 px-3 py-2.5 text-sm text-stone-900 placeholder:text-stone-400 focus:outline-none focus:ring-2 focus:ring-red-700"
                   />
 
                   {status === 'error' && (
-                    <p className="text-xs text-red-500">
+                    <p className="text-xs text-red-700">
                       Something went wrong. Please try again.
                     </p>
                   )}
@@ -107,7 +107,7 @@ export function AuthModal({ open, onClose }: AuthModalProps) {
                   <button
                     type="submit"
                     disabled={status === 'sending'}
-                    className="cursor-pointer w-full rounded-lg bg-amber-600 px-4 py-2.5 text-sm font-medium text-white hover:bg-amber-700 disabled:opacity-60 transition-colors"
+                    className="cursor-pointer w-full rounded-lg bg-red-800 px-4 py-2.5 text-sm font-medium text-white hover:bg-red-900 disabled:opacity-60 transition-colors"
                   >
                     {status === 'sending' ? 'Sending…' : 'Send sign-in link →'}
                   </button>

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { IngredientInput } from "@/components/IngredientInput";
@@ -34,7 +34,7 @@ export default function Home() {
                 Recent
               </Link>
               <Link href="/favorites" className="hover:text-stone-600 transition-colors flex items-center gap-1">
-                Saved <span className="text-rose-400">♥</span>
+                Saved <span className="text-red-700">♥</span>
               </Link>
             </nav>
           </div>

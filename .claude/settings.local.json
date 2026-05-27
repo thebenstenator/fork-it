@@ -18,7 +18,8 @@
       "PowerShell(npx tsc --noEmit)",
       "PowerShell(npm install @ducanh2912/next-pwa)",
       "PowerShell(git add next.config.ts)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(git add *)"
     ]
   }
 }

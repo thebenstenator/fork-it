@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
@@ -90,9 +90,9 @@ export function FilterChips({ onChange }: FilterChipsProps) {
               whileTap={{ scale: 0.95 }}
               className={cn(
                 'cursor-pointer inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors',
-                'border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500',
+                'border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700',
                 isActive
-                  ? 'border-amber-400 bg-amber-100 text-amber-700'
+                  ? 'border-red-300 bg-red-100 text-red-800'
                   : 'border-stone-200 bg-white text-stone-500 hover:border-stone-300 hover:text-stone-700'
               )}
             >

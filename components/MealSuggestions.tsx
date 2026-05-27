@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -65,7 +65,7 @@ export function MealSuggestions({
         className="rounded-lg border border-red-200 bg-red-50 p-4"
         role="alert"
       >
-        <p className="text-sm text-red-700">
+        <p className="text-sm text-red-800">
           Hmm, something went wrong. {error}
         </p>
       </motion.div>
