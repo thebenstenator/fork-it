@@ -100,7 +100,7 @@ export function MealCard({ meal, user, isFavorited, onToggleFavorite }: MealCard
         <button
           ref={expandButtonRef}
           onClick={() => setIsExpanded((prev) => !prev)}
-          className="text-sm font-medium text-amber-600 hover:text-amber-700 transition-colors"
+          className="cursor-pointer text-sm font-medium text-amber-600 hover:text-amber-700 transition-colors"
           aria-expanded={isExpanded}
         >
           {isExpanded ? 'Hide recipe ↑' : 'See how →'}

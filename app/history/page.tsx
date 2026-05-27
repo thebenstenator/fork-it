@@ -42,7 +42,7 @@ export default function HistoryPage() {
           {entries.length > 0 && (
             <button
               onClick={handleClear}
-              className="shrink-0 text-sm text-stone-400 hover:text-red-500 transition-colors"
+              className="cursor-pointer shrink-0 text-sm text-stone-400 hover:text-red-500 transition-colors"
             >
               Clear all
             </button>

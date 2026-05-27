@@ -89,7 +89,7 @@ export function FilterChips({ onChange }: FilterChipsProps) {
               aria-checked={isActive}
               whileTap={{ scale: 0.95 }}
               className={cn(
-                'inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors',
+                'cursor-pointer inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors',
                 'border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500',
                 isActive
                   ? 'border-amber-400 bg-amber-100 text-amber-700'

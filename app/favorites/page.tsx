@@ -36,7 +36,7 @@ export default function FavoritesPage() {
           {user && (
             <button
               onClick={signOut}
-              className="shrink-0 mt-8 text-sm text-stone-400 hover:text-stone-600 transition-colors"
+              className="cursor-pointer shrink-0 mt-8 text-sm text-stone-400 hover:text-stone-600 transition-colors"
             >
               Sign out
             </button>
@@ -53,7 +53,7 @@ export default function FavoritesPage() {
             </p>
             <button
               onClick={() => setShowAuthModal(true)}
-              className="inline-block rounded-lg bg-amber-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-amber-700 transition-colors"
+              className="cursor-pointer inline-block rounded-lg bg-amber-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-amber-700 transition-colors"
             >
               Sign in with email →
             </button>

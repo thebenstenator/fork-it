@@ -44,7 +44,7 @@ export function HistoryCard({ entry, user, isFavorited, onToggleFavorite }: Hist
       {/* Compact header — always visible */}
       <button
         onClick={() => setIsExpanded((prev) => !prev)}
-        className="w-full text-left px-4 py-3 hover:bg-stone-50 transition-colors"
+        className="cursor-pointer w-full text-left px-4 py-3 hover:bg-stone-50 transition-colors"
         aria-expanded={isExpanded}
       >
         <div className="flex items-start justify-between gap-3">

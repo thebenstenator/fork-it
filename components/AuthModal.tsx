@@ -107,7 +107,7 @@ export function AuthModal({ open, onClose }: AuthModalProps) {
                   <button
                     type="submit"
                     disabled={status === 'sending'}
-                    className="w-full rounded-lg bg-amber-600 px-4 py-2.5 text-sm font-medium text-white hover:bg-amber-700 disabled:opacity-60 transition-colors"
+                    className="cursor-pointer w-full rounded-lg bg-amber-600 px-4 py-2.5 text-sm font-medium text-white hover:bg-amber-700 disabled:opacity-60 transition-colors"
                   >
                     {status === 'sending' ? 'Sending…' : 'Send sign-in link →'}
                   </button>
@@ -115,7 +115,7 @@ export function AuthModal({ open, onClose }: AuthModalProps) {
 
                 <button
                   onClick={handleClose}
-                  className="w-full text-xs text-stone-400 hover:text-stone-500 transition-colors"
+                  className="cursor-pointer w-full text-xs text-stone-400 hover:text-stone-500 transition-colors"
                 >
                   Cancel
                 </button>

@@ -24,7 +24,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#FAFAF8]">
       <div className="mx-auto max-w-[680px] px-4 py-10 space-y-8">
         {/* Header */}
-        <header className="flex items-start justify-between gap-4">
+        <header className="flex items-end justify-between gap-4">
           <div className="space-y-1">
             <h1 className="text-3xl font-bold tracking-tight text-stone-900">
               fork it.

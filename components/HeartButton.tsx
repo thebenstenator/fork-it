@@ -34,7 +34,7 @@ export function HeartButton({ meal, user, isFavorited, onToggle }: HeartButtonPr
         whileTap={{ scale: 0.85 }}
         aria-label={isFavorited ? 'Remove from favorites' : 'Save to favorites'}
         title={isFavorited ? 'Saved!' : 'Save recipe'}
-        className="shrink-0 text-xl leading-none transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded"
+        className="cursor-pointer shrink-0 text-xl leading-none transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded"
       >
         {isFavorited ? '♥' : '♡'}
       </motion.button>

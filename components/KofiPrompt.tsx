@@ -48,7 +48,7 @@ export function KofiPrompt({ show }: KofiPromptProps) {
           <button
             onClick={dismiss}
             aria-label="Dismiss"
-            className="text-stone-300 hover:text-stone-500 transition-colors text-base leading-none"
+            className="cursor-pointer text-stone-300 hover:text-stone-500 transition-colors text-base leading-none"
           >
             ×
           </button>
