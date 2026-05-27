@@ -24,9 +24,6 @@ export function MealCard({ meal, user, isFavorited, onToggleFavorite }: MealCard
   const expandButtonRef = useRef<HTMLButtonElement>(null)
 
   const showImage = meal.imageUrl && !imageError
-  const matchPercent = meal.matchScore
-    ? Math.round((meal.matchScore.have / meal.matchScore.total) * 100)
-    : null
 
   // Escape key collapses the expanded card
   useEffect(() => {
@@ -87,12 +84,15 @@ export function MealCard({ meal, user, isFavorited, onToggleFavorite }: MealCard
         {meal.matchScore && (
           <p className="text-xs text-stone-400">
             You have {meal.matchScore.have} of {meal.matchScore.total} ingredients
-            {matchPercent !== null && matchPercent < 100 && (
-              <span className="ml-1 text-amber-600">
-                ({meal.missingIngredients.slice(0, 2).join(', ')}
-                {meal.missingIngredients.length > 2 ? '…' : ''} missing)
-              </span>
-            )}
+          </p>
+        )}
+
+        {/* Also needs — major missing ingredients */}
+        {meal.missingIngredients.length > 0 && (
+          <p className="text-xs text-stone-500">
+            <span className="font-medium">Also needs:</span>{' '}
+            {meal.missingIngredients.slice(0, 5).join(', ')}
+            {meal.missingIngredients.length > 5 ? '…' : ''}
           </p>
         )}
 

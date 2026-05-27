@@ -5,15 +5,10 @@ import { IngredientInput } from "@/components/IngredientInput";
 import { FilterChips } from "@/components/FilterChips";
 import { MealSuggestions } from "@/components/MealSuggestions";
 import { KofiPrompt } from "@/components/KofiPrompt";
-import dynamic from "next/dynamic";
-const HistoryLink = dynamic(
-  () => import("@/components/HistoryLink").then((m) => m.HistoryLink),
-  { ssr: false }
-);
+import Link from "next/link";
 import { useMealSuggestions } from "@/hooks/useMealSuggestions";
 import { useAuth } from "@/hooks/useAuth";
 import { useFavorites } from "@/hooks/useFavorites";
-import Link from "next/link";
 
 export default function Home() {
   const { data, isLoading, error, fetchSuggestions } = useMealSuggestions();
@@ -29,13 +24,23 @@ export default function Home() {
     <div className="min-h-screen bg-[#FAFAF8]">
       <div className="mx-auto max-w-[680px] px-4 py-10 space-y-8">
         {/* Header */}
-        <header className="space-y-1">
-          <h1 className="text-3xl font-bold tracking-tight text-stone-900">
-            fork it.
-          </h1>
-          <p className="text-stone-500">
-            Real dinner ideas from whatever you&apos;ve got.
-          </p>
+        <header className="flex items-start justify-between gap-4">
+          <div className="space-y-1">
+            <h1 className="text-3xl font-bold tracking-tight text-stone-900">
+              fork it.
+            </h1>
+            <p className="text-stone-500">
+              Real dinner ideas from whatever you&apos;ve got.
+            </p>
+          </div>
+          <nav className="flex items-center gap-4 pt-1 shrink-0 text-xs text-stone-400">
+            <Link href="/history" className="hover:text-stone-600 transition-colors">
+              Recent
+            </Link>
+            <Link href="/favorites" className="hover:text-stone-600 transition-colors flex items-center gap-1">
+              Saved <span className="text-rose-400">♥</span>
+            </Link>
+          </nav>
         </header>
 
         {/* Input */}
@@ -58,7 +63,7 @@ export default function Home() {
         <KofiPrompt show={!!data && !isLoading} />
 
         {/* Footer */}
-        <footer className="pt-8 border-t border-stone-200 space-y-1 text-xs text-stone-400">
+        <footer className="pt-8 border-t border-stone-200 space-y-1 text-xs text-stone-400 text-center">
           <p>
             Built by{" "}
             <a
@@ -76,13 +81,8 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              ☕ Buy me a coffee
+              Buy me a coffee
             </a>
-            <HistoryLink />
-            {" · "}
-            <Link href="/favorites" className="hover:text-stone-600 transition-colors">
-              Saved recipes
-            </Link>
           </p>
           <p>
             Recipes via{" "}
