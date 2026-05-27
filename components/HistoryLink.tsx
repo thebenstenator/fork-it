@@ -4,8 +4,9 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { getHistory } from '@/lib/history'
 
-// Renders a "History" link only when the user has at least one saved search.
-// Uses a lazy initializer so it reads localStorage once on mount with no effect.
+// Renders " · Recent searches" only when the user has at least one saved search.
+// The separator lives inside this component so the footer never has a dangling " · ".
+// suppressHydrationWarning on the parent <p> handles the server/client localStorage mismatch.
 export function HistoryLink() {
   const [hasHistory] = useState(() => {
     if (typeof window === 'undefined') return false
@@ -15,11 +16,11 @@ export function HistoryLink() {
   if (!hasHistory) return null
 
   return (
-    <Link
-      href="/history"
-      className="hover:text-stone-600 transition-colors"
-    >
-      Recent searches
-    </Link>
+    <>
+      {' · '}
+      <Link href="/history" className="hover:text-stone-600 transition-colors">
+        Recent searches
+      </Link>
+    </>
   )
 }

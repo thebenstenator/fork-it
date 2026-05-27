@@ -55,7 +55,8 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="pt-8 border-t border-stone-200 space-y-1 text-xs text-stone-400">
-          <p>
+          {/* suppressHydrationWarning: HistoryLink reads localStorage which differs server/client */}
+          <p suppressHydrationWarning>
             Built by{" "}
             <a
               href="https://github.com/thebenstenator"
@@ -74,7 +75,6 @@ export default function Home() {
             >
               ☕ Buy me a coffee
             </a>
-            {" · "}
             <HistoryLink />
             {" · "}
             <Link href="/favorites" className="hover:text-stone-600 transition-colors">
