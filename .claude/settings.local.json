@@ -19,7 +19,14 @@
       "PowerShell(npm install @ducanh2912/next-pwa)",
       "PowerShell(git add next.config.ts)",
       "WebSearch",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m 'design: swap amber accent for earthy brick red *)",
+      "Bash(git push *)",
+      "Bash(node -e \"const p = require\\('./package.json'\\); console.log\\('next:', p.dependencies.next, '\\\\nnode:', process.version\\)\")",
+      "Bash(mkdir -p \"c:\\\\Users\\\\thebe\\\\Projects\\\\dinner-ideas\\\\app\\\\ideas\\\\[slug]\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\thebe\\Projects\\dinner-ideas\\app\\ideas"
     ]
   }
 }
