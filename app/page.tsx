@@ -24,23 +24,23 @@ export default function Home() {
     <div className="min-h-screen bg-[#FAFAF8]">
       <div className="mx-auto max-w-[680px] px-4 py-10 space-y-8">
         {/* Header */}
-        <header className="flex items-end justify-between gap-4">
-          <div className="space-y-1">
+        <header className="space-y-1">
+          <div className="flex items-end justify-between gap-4">
             <h1 className="text-3xl font-bold tracking-tight text-stone-900">
               fork it.
             </h1>
-            <p className="text-stone-500">
-              Real dinner ideas from whatever you&apos;ve got.
-            </p>
+            <nav className="flex items-center gap-4 shrink-0 text-xs text-stone-400">
+              <Link href="/history" className="hover:text-stone-600 transition-colors">
+                Recent
+              </Link>
+              <Link href="/favorites" className="hover:text-stone-600 transition-colors flex items-center gap-1">
+                Saved <span className="text-rose-400">♥</span>
+              </Link>
+            </nav>
           </div>
-          <nav className="flex items-center gap-4 pt-1 shrink-0 text-xs text-stone-400">
-            <Link href="/history" className="hover:text-stone-600 transition-colors">
-              Recent
-            </Link>
-            <Link href="/favorites" className="hover:text-stone-600 transition-colors flex items-center gap-1">
-              Saved <span className="text-rose-400">♥</span>
-            </Link>
-          </nav>
+          <p className="text-stone-500">
+            Real dinner ideas from whatever you&apos;ve got.
+          </p>
         </header>
 
         {/* Input */}
