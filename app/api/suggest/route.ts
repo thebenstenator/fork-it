@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { SuggestRequestSchema, SuggestResponseSchema, type Meal } from '@/lib/types'
+import { SuggestRequestSchema, SuggestResponseSchema, type Meal, type SpoonacularRecipe } from '@/lib/types'
 import { normalizeIngredients, enrichRecipes, generateFallbackRecipes } from '@/lib/claude'
 import { searchRecipes } from '@/lib/spoonacular'
 import { buildCacheKey, getCachedResponse, setCachedResponse } from '@/lib/cache'
@@ -53,7 +53,14 @@ export async function POST(req: NextRequest) {
     // ------------------------------------------------------------------
     // 5. Fetch from Spoonacular
     // ------------------------------------------------------------------
-    const { recipes: spoonacularRecipes } = await searchRecipes(normalizedIngredients, filters)
+    let spoonacularRecipes: SpoonacularRecipe[] = []
+    try {
+      const result = await searchRecipes(normalizedIngredients, filters)
+      spoonacularRecipes = result.recipes
+    } catch (err) {
+      // Spoonacular quota exceeded or down — fall through to Claude-only path
+      console.error('[/api/suggest] Spoonacular failed, falling back to Claude:', err)
+    }
 
     // ------------------------------------------------------------------
     // 6. Enrich or generate

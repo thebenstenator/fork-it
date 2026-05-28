@@ -71,6 +71,9 @@ export function AuthModal({ open, onClose }: AuthModalProps) {
                   We sent a sign-in link to <strong>{email}</strong>.
                   Click it, then tap ♡ again to save your recipe.
                 </p>
+                <p className="text-xs text-stone-400">
+                  The email comes from Supabase (our auth provider) — check spam if you don&apos;t see it.
+                </p>
                 <button
                   onClick={handleClose}
                   className="mt-2 text-sm text-red-800 hover:text-red-900 font-medium transition-colors"
