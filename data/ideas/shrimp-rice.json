@@ -1,0 +1,72 @@
+[
+  {
+    "id": "generated-1",
+    "name": "Garlic Butter Shrimp over Rice",
+    "pitch": "Simple, fast, and deeply satisfying — buttery garlicky shrimp over fluffy rice is a weeknight hero that comes together in under 20 minutes.",
+    "timeEstimate": "~20 min",
+    "steps": [
+      "Cook your rice according to package directions.",
+      "While rice cooks, melt 2 tablespoons of butter in a skillet over medium-high heat and add 4–5 minced garlic cloves.",
+      "Add the shrimp in a single layer, season with salt and pepper, and cook 1–2 minutes per side until pink and curled.",
+      "Squeeze a little vinegar (or a splash of water with a pinch of salt) to deglaze the pan if you'd like a bit of a sauce.",
+      "Spoon the shrimp and all that garlicky butter over your rice and serve."
+    ],
+    "toolSuggestion": "A wide skillet or sauté pan",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-2",
+    "name": "Soy-Glazed Shrimp Fried Rice",
+    "pitch": "A takeout-style fried rice that uses what you have and tastes like you planned it all along — soy sauce and a hot pan do most of the work.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Cook rice and let it cool for a few minutes — or use leftover rice if you have it, as it fries up best.",
+      "Heat oil in a large skillet or wok over high heat until very hot.",
+      "Add shrimp, season with salt and pepper, cook 1–2 minutes per side, then set aside.",
+      "Add a little more oil to the same pan, toss in the rice, and stir-fry for 3–4 minutes, pressing it against the pan to get some crispy bits.",
+      "Add 2–3 tablespoons of soy sauce, stir well, return the shrimp to the pan, toss everything together, and serve hot.",
+      "Note: eggs and green onions would make this even better if you happen to have them."
+    ],
+    "toolSuggestion": "A wok or the largest skillet you own",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-3",
+    "name": "Spiced Shrimp Rice Bowl with Vinegar Drizzle",
+    "pitch": "This is a bright, slightly tangy rice bowl with warm spiced shrimp — simple but it has a little personality that makes it feel special.",
+    "timeEstimate": "~20 min",
+    "steps": [
+      "Cook your rice and season it lightly with a tiny splash of vinegar and a pinch of salt once done — this gives it a subtle brightness.",
+      "Toss shrimp with a little oil, garlic powder, cumin or paprika (whatever dried spices you have), salt, and pepper.",
+      "Cook shrimp in a hot oiled skillet 1–2 minutes per side until cooked through.",
+      "Spoon rice into a bowl, top with shrimp, and drizzle with a little more vinegar mixed with oil as a quick dressing.",
+      "Note: sliced avocado, a fried egg, or any fresh vegetables on hand would round this out nicely."
+    ],
+    "toolSuggestion": "A small mixing bowl for tossing the shrimp in spices",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

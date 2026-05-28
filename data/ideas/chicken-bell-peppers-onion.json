@@ -1,0 +1,95 @@
+[
+  {
+    "id": "648097",
+    "name": "Italian Chicken with Peppers",
+    "pitch": "Your chicken, bell peppers, and onion are basically the heart of this rustic Italian braise — you just need a can of tomatoes to pull it all together.",
+    "timeEstimate": "~45 min",
+    "steps": [
+      "Heat a glug of oil in a large pan or Dutch oven over medium-high heat. Season your chicken pieces with salt and pepper, then brown them on all sides — about 3-4 minutes per side. Set aside on a plate.",
+      "In the same pan, add your sliced onion and bell pepper. Cook for about 5 minutes until softened. Toss in a couple of minced garlic cloves if you have them (totally optional but great).",
+      "Add a splash of red wine vinegar (or a small squeeze of lemon juice works too) and scrape up any brown bits from the bottom — that's flavor.",
+      "Pour in a can of diced tomatoes, add a pinch of dried basil or Italian seasoning, and a pinch of red pepper flakes if you like a little heat. Nestle the chicken back in.",
+      "Cover and simmer on medium-low for 25 minutes until the chicken is cooked through. Taste, adjust salt, and serve as-is or over rice or pasta."
+    ],
+    "toolSuggestion": "cast iron skillet",
+    "missingCount": 2,
+    "imageUrl": "https://img.spoonacular.com/recipes/710766-556x370.jpg",
+    "matchScore": {
+      "have": 3,
+      "total": 7
+    },
+    "missingIngredients": [
+      "chicken broth",
+      "lemon",
+      "paprika",
+      "rosemary flakes"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "710766",
+    "name": "Easy Baked Chicken with Peppers and Onion",
+    "pitch": "This is simple, hands-off comfort food — just season your chicken, tuck it in with peppers and onion, and let the oven do the work.",
+    "timeEstimate": "~1 hr",
+    "steps": [
+      "Heat your oven to 400°F (higher than the original — it'll give you better color in less time). Pat your chicken dry with a paper towel and place it in a 9x13 baking dish.",
+      "Slice your bell pepper and onion into chunky pieces and scatter them around the chicken in the dish.",
+      "Drizzle everything with oil. Season generously with salt, pepper, and paprika if you have it — smoked paprika is great here. A pinch of dried rosemary or thyme works too, but honestly just salt and paprika is enough.",
+      "No chicken broth? No problem — just add a small splash of water to the bottom of the dish to keep things from drying out. If you have half a lemon, squeeze it over the top.",
+      "Roast uncovered for 40-50 minutes until the chicken is golden and cooked through (internal temp 165°F, or juices run clear). Let it rest 5 minutes before serving."
+    ],
+    "toolSuggestion": "null",
+    "missingCount": 0,
+    "imageUrl": "https://img.spoonacular.com/recipes/648097-556x370.jpg",
+    "matchScore": {
+      "have": 3,
+      "total": 8
+    },
+    "missingIngredients": [
+      "canned tomatoes",
+      "basil",
+      "garlic cloves",
+      "pepper flakes",
+      "red wine vinegar"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "157375",
+    "name": "Chicken and Veggie Rice Skillet",
+    "pitch": "This is less of a traditional risotto and more of a hearty one-pan rice dish — but with your chicken, peppers, and onion, it's a solid weeknight meal if you've got rice and a few extras.",
+    "timeEstimate": "~35 min",
+    "steps": [
+      "Cut your chicken into bite-sized pieces and cook them in a large pan with a little oil over medium-high heat until golden. Set aside.",
+      "In the same pan, add your diced onion and bell pepper and cook for 3-4 minutes until softened. Add garlic if you have it.",
+      "Add your rice (about 1 cup) and stir it around in the pan for a minute to toast it slightly.",
+      "Pour in about 2 cups of chicken broth — or just use water with a good pinch of salt if you don't have broth. Bring to a simmer, then cover and cook on low for about 18 minutes until the rice is tender.",
+      "Stir the chicken back in. If you have any cheese — parmesan, cheddar, whatever — sprinkle some on top. Taste for salt and serve straight from the pan."
+    ],
+    "toolSuggestion": "cast iron skillet",
+    "missingCount": 3,
+    "imageUrl": "https://img.spoonacular.com/recipes/157375-556x370.jpg",
+    "matchScore": {
+      "have": 3,
+      "total": 9
+    },
+    "missingIngredients": [
+      "butter",
+      "chicken broth",
+      "mushrooms",
+      "parmesan",
+      "rice",
+      "white wine"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

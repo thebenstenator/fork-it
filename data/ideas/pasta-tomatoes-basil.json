@@ -1,0 +1,91 @@
+[
+  {
+    "id": "654009",
+    "name": "Pasta with Cherry Tomatoes and Basil",
+    "pitch": "With just your pasta, tomatoes, and basil already on hand, this simple Italian-style dish basically makes itself — a few pantry spices do all the heavy lifting.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Bring a large pot of salted water to a boil and cook your pasta until al dente according to the package. Any pasta shape you have works great here.",
+      "While the pasta cooks, warm a generous splash of olive oil in a large frying pan over medium heat. Add a pinch of garlic powder (or mince a fresh garlic clove if you have one) and let it sizzle for about 30 seconds.",
+      "If you have any sun-dried tomatoes tucked away, toss them in now and stir for 2 minutes — totally fine to skip them if not.",
+      "Add your fresh tomatoes (halved if they're cherry-sized, roughly chopped if larger), a pinch of chili flakes if you like a little heat, and a pinch of dried oregano. Cover and cook for 10–15 minutes until the tomatoes break down into a saucy, jammy situation.",
+      "Tear in your fresh basil and season with salt to taste.",
+      "Drain the pasta and toss it straight into the pan with the sauce. Stir everything together over low heat for a minute or two so the pasta soaks up all that flavor.",
+      "Serve as-is, or with a little grated parmesan or pecorino on top if you have it."
+    ],
+    "toolSuggestion": null,
+    "missingCount": 0,
+    "imageUrl": "https://img.spoonacular.com/recipes/660019-556x370.jpg",
+    "matchScore": {
+      "have": 4,
+      "total": 7
+    },
+    "missingIngredients": [
+      "shrimp",
+      "garlic cloves",
+      "scallop"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "633505",
+    "name": "Baked Tomato Spaghetti",
+    "pitch": "If you have a little extra time, roasting your tomatoes in the oven turns this three-ingredient pantry dinner into something that tastes way more special than the effort involved.",
+    "timeEstimate": "~50 min",
+    "steps": [
+      "Preheat your oven to 200°C (390°F).",
+      "Halve your tomatoes and spread them in a single layer in a baking dish. Tuck in your fresh basil leaves, drizzle everything generously with olive oil, and season well with salt and pepper. No thyme? No problem — the basil carries it beautifully on its own.",
+      "Roast for about 40–45 minutes until the tomatoes are soft, jammy, and just starting to caramelize at the edges. That's where the flavor is.",
+      "About 10 minutes before the tomatoes are done, cook and drain your spaghetti (or whatever pasta you have) according to the package.",
+      "Add the drained pasta straight into the baking dish with the tomatoes and toss everything together well, scraping up all the good bits from the bottom.",
+      "Serve right away — maybe with a drizzle of fresh olive oil over the top."
+    ],
+    "toolSuggestion": "sheet pan",
+    "missingCount": 0,
+    "imageUrl": "https://img.spoonacular.com/recipes/654009-556x370.jpg",
+    "matchScore": {
+      "have": 4,
+      "total": 7
+    },
+    "missingIngredients": [
+      "garlic powder",
+      "chili pepper flakes",
+      "oregano"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "660019",
+    "name": "Tomato Pasta with Shrimp (or without!)",
+    "pitch": "The tomato-basil sauce here is genuinely delicious on its own over pasta — the shrimp and scallops are a nice bonus if you happen to have them, but honestly don't stress it.",
+    "timeEstimate": "~35 min",
+    "steps": [
+      "If you have shrimp or scallops, season them with salt and pepper and set aside. If not, no worries — you're making a great tomato pasta.",
+      "Warm a generous splash of olive oil in a deep pan over medium heat. If cooking shrimp, add them now and cook about 2–3 minutes per side until pink and opaque. Set aside in a bowl.",
+      "In the same pan, add a little more oil and a clove of minced garlic (or a pinch of garlic powder) and cook for about a minute until golden and fragrant.",
+      "Add your tomatoes — canned, fresh, or both — plus about 1 cup of water. Bring to a boil, then reduce heat and simmer for 15–20 minutes, stirring occasionally, until it turns into a proper sauce.",
+      "While the sauce simmers, cook your pasta in a separate pot of salted boiling water until al dente, then drain.",
+      "Stir any fresh tomatoes and your shrimp (if using) back into the sauce off the heat. Toss in the pasta, scatter over the fresh basil, and serve."
+    ],
+    "toolSuggestion": null,
+    "missingCount": 2,
+    "imageUrl": "https://img.spoonacular.com/recipes/633505-556x370.jpg",
+    "matchScore": {
+      "have": 3,
+      "total": 4
+    },
+    "missingIngredients": [
+      "thyme"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

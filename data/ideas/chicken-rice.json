@@ -1,0 +1,71 @@
+[
+  {
+    "id": "generated-1",
+    "name": "Garlic Butter Chicken & Rice",
+    "pitch": "Simple, cozy, and deeply satisfying — garlic and butter turn basic chicken and rice into something that feels like a hug.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Season chicken pieces (or breasts/thighs) generously with salt, pepper, and a pinch of any dried herb you have — paprika or oregano work great.",
+      "Heat oil in a skillet over medium-high heat and cook the chicken until golden and cooked through, about 6–7 minutes per side for breasts. Remove and let rest.",
+      "In the same pan, melt 2 tablespoons of butter, add 3–4 minced garlic cloves, and stir for 30 seconds until fragrant.",
+      "Meanwhile, cook your rice according to package directions. Stir a little butter and salt into the finished rice.",
+      "Slice the chicken, spoon the garlic butter pan drippings over the top, and serve over the rice."
+    ],
+    "toolSuggestion": "A heavy skillet or cast iron pan for a nice golden sear",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-2",
+    "name": "Soy-Glazed Chicken Rice Bowl",
+    "pitch": "A quick Asian-inspired bowl that's savory, sticky, and way more exciting than it sounds for a weeknight.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Cook your rice according to package directions and keep warm.",
+      "Cut chicken into bite-sized pieces and season lightly with salt and pepper.",
+      "Heat oil in a pan over medium-high heat and cook the chicken pieces, stirring occasionally, until browned and cooked through — about 8–10 minutes.",
+      "Mix together 3 tablespoons soy sauce, 1 tablespoon vinegar, 1 teaspoon sugar (if you have it — optional), and 2 minced garlic cloves. Pour over the cooked chicken and toss to coat, letting it bubble and thicken for 1–2 minutes.",
+      "Spoon the glazed chicken over rice and serve. A drizzle of the pan sauce on the rice makes it even better."
+    ],
+    "toolSuggestion": "A non-stick skillet to keep the glaze from sticking",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-3",
+    "name": "One-Pot Chicken & Rice Pilaf",
+    "pitch": "Everything cooks together in one pot, which means less cleanup and a wonderfully flavored, lightly seasoned rice that absorbs all the chicken goodness.",
+    "timeEstimate": "~35 min",
+    "steps": [
+      "Season chicken pieces well with salt, pepper, and paprika or cumin if you have them.",
+      "Heat oil in a deep pot or Dutch oven over medium-high heat and sear the chicken on both sides until golden, about 4–5 minutes per side. Remove and set aside.",
+      "In the same pot, add a bit more oil if needed and toast the dry rice for 1–2 minutes, stirring — this adds a nutty depth.",
+      "Add 2 cups of water (or a 2:1 ratio to your rice amount), 2 minced garlic cloves, a good pinch of salt, and stir. Nestle the chicken back on top.",
+      "Cover, reduce heat to low, and simmer for 18–20 minutes until the rice is cooked and the chicken is fully done. Let it sit covered for 5 minutes before serving."
+    ],
+    "toolSuggestion": "A Dutch oven or deep lidded pot works best here",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

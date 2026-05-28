@@ -1,0 +1,76 @@
+[
+  {
+    "id": "generated-1",
+    "name": "Garlic Butter Pan-Seared Chicken with Avocado Salsa",
+    "pitch": "Juicy pan-seared chicken topped with a simple smashed avocado salsa — it's fresh, fast, and feels a little fancy for a weeknight.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Season chicken breasts or thighs generously with salt, pepper, and a pinch of garlic powder on both sides.",
+      "Heat a tablespoon of oil in a skillet over medium-high heat. Cook chicken 5–7 minutes per side until golden and cooked through, then add a knob of butter and a minced garlic clove to the pan and spoon it over the chicken for the last minute.",
+      "While the chicken rests, mash the avocado with a pinch of salt, pepper, and a small splash of vinegar (white or apple cider) to brighten it up — this stands in nicely for lime juice if you don't have it.",
+      "Slice the chicken, spoon the avocado on top, and serve. Simple as that."
+    ],
+    "toolSuggestion": "Cast iron or heavy skillet",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-2",
+    "name": "Soy-Glazed Chicken Rice Bowl with Avocado",
+    "pitch": "A comforting, Asian-inspired bowl with sticky soy-glazed chicken and creamy avocado slices — this one is simple but genuinely satisfying.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Cook rice according to package directions (this is your longest step, so start it first).",
+      "Cut chicken into bite-sized pieces and season with pepper. Cook in a lightly oiled skillet over medium-high heat for 5–6 minutes until cooked through.",
+      "Mix together 2 tablespoons soy sauce, 1 teaspoon vinegar, a minced garlic clove, and a pinch of sugar if you have it. Pour over the cooked chicken and toss for 1–2 minutes until glazed and sticky.",
+      "Slice the avocado. Serve the glazed chicken over rice with avocado on the side, and drizzle any extra glaze from the pan over the bowl."
+    ],
+    "toolSuggestion": "Medium saucepan for rice",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "rice"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "rice"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-3",
+    "name": "Crispy Chicken & Avocado Flatbread Pizza",
+    "pitch": "Think of this as a lazy, no-fuss pizza — toasted bread piled with seasoned chicken and avocado, it's fun and kid-friendly.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Cook chicken (sliced thin or pounded flat) in a skillet with oil, salt, pepper, and garlic until golden and cooked through, about 4–5 minutes per side. Let it rest, then slice or chop it.",
+      "Toast your flatbread, pita, or sliced sandwich bread in the oven at 400°F for 5 minutes until just crisp.",
+      "Mash avocado with salt, pepper, and a splash of vinegar and spread it generously over the toasted bread as your 'sauce.'",
+      "Top with the sliced chicken, add any extra spices you like (a pinch of chili flakes or cumin is great here), and serve immediately while the bread is still crispy."
+    ],
+    "toolSuggestion": "Baking sheet",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "flatbread or pita"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "flatbread or pita"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

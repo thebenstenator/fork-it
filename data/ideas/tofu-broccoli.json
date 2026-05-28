@@ -1,0 +1,82 @@
+[
+  {
+    "id": "658509",
+    "name": "Roasted Broccoli with Lemon and Garlic",
+    "pitch": "This simple side comes together with what you've got, and if you have a lemon or even a splash of vinegar hiding in the fridge, it really ties the whole thing together.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Preheat your oven to 400°F.",
+      "Toss your broccoli florets in a large bowl with a drizzle of olive oil, a pinch of salt and pepper, and a clove or two of garlic if you have it — or just skip it, it'll still be tasty.",
+      "Spread the broccoli in a single layer on a baking sheet — don't crowd it or it'll steam instead of roast.",
+      "Roast for 15–20 minutes until the edges are a little crispy and you can poke the stems with a fork.",
+      "Squeeze a bit of lemon juice over the top if you have one — or a small splash of white vinegar works in a pinch. Serve alongside your tofu."
+    ],
+    "toolSuggestion": "sheet pan",
+    "missingCount": 1,
+    "imageUrl": "https://img.spoonacular.com/recipes/658509-556x370.jpg",
+    "matchScore": {
+      "have": 1,
+      "total": 3
+    },
+    "missingIngredients": [
+      "garlic",
+      "lemon juice"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "658512",
+    "name": "Crispy Tofu and Roasted Broccoli Bowl",
+    "pitch": "You've got both main players right here — tofu and broccoli roast up beautifully together and make a genuinely satisfying weeknight bowl.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Preheat your oven to 400°F. Press your tofu if you have a minute — wrap it in a clean dish towel and set something heavy on it for 5–10 minutes to get some moisture out.",
+      "Cut the tofu into cubes and your broccoli into bite-sized pieces. Spread them out on a sheet pan — keep them in a single layer so they roast, not steam.",
+      "Drizzle everything lightly with oil and season with salt, pepper, and a pinch of red pepper flakes if you have them. A little soy sauce over the tofu adds great flavor.",
+      "Roast for about 20–25 minutes, giving the pan a shake halfway through, until the broccoli edges are a little crispy and the tofu is golden.",
+      "Serve over rice or noodles if you have them, or just as-is — simple but satisfying."
+    ],
+    "toolSuggestion": "sheet pan",
+    "missingCount": 0,
+    "imageUrl": "https://img.spoonacular.com/recipes/658512-556x370.jpg",
+    "matchScore": {
+      "have": 1,
+      "total": 3
+    },
+    "missingIngredients": [
+      "garlic",
+      "pepper flakes"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-1",
+    "name": "Garlic Soy Tofu & Broccoli Stir-Fry",
+    "pitch": "This is a simple, satisfying weeknight staple — crispy tofu and tender broccoli tossed in a savory garlic-soy sauce that comes together in no time.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Press the tofu for 10 minutes by wrapping it in a clean towel and setting something heavy on top, then cut it into bite-sized cubes.",
+      "Heat a generous splash of oil in a large pan or wok over medium-high heat. Add the tofu in a single layer and let it cook undisturbed for 3–4 minutes per side until golden and crispy, then set aside.",
+      "In the same pan, add a little more oil and toss in the broccoli florets. Stir-fry for 4–5 minutes until bright green and just tender.",
+      "Add 2–3 minced garlic cloves and cook for 30 seconds until fragrant.",
+      "Return the tofu to the pan and pour over a sauce made from 3 tablespoons soy sauce, 1 tablespoon vinegar, and a pinch of pepper. Toss everything together and cook for 1–2 more minutes.",
+      "Serve as-is or over rice or noodles if you have them — it's honestly great either way."
+    ],
+    "toolSuggestion": "A large non-stick skillet or wok",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

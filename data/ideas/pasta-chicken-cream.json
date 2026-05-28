@@ -1,0 +1,88 @@
+[
+  {
+    "id": "637591",
+    "name": "Creamy Chicken Tortellini Alfredo",
+    "pitch": "You've got the cream and pasta to pull off a genuinely cozy alfredo — and adding your chicken turns it into a full meal without any extra effort.",
+    "timeEstimate": "~20 min",
+    "steps": [
+      "Boil a big pot of salted water and cook your pasta according to the package. While that's going, slice or shred your chicken into bite-sized pieces.",
+      "Drain the pasta, keeping a small cup of the pasta water aside just in case.",
+      "Return the pasta to the warm pot over low heat. Add a tablespoon or two of butter if you have it (or just a drizzle of olive oil), then pour in your cream. Stir and let it thicken for a couple of minutes.",
+      "Toss in the chicken to warm through. If you have any parmesan or even just a hard cheese in the fridge, grate some in — it makes a big difference. No cheese? It's still good, just a little lighter.",
+      "Season generously with salt, black pepper, and a tiny pinch of nutmeg if you have it. Serve right away while it's silky and hot."
+    ],
+    "toolSuggestion": null,
+    "missingCount": 1,
+    "imageUrl": "https://img.spoonacular.com/recipes/654830-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 4
+    },
+    "missingIngredients": [
+      "butter",
+      "pecorino romano cheese flecked"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "654830",
+    "name": "Creamy Black Pepper Pasta",
+    "pitch": "This is the Italian answer to 'I have almost nothing' — pasta, cream, and a heavy hand with black pepper make something that feels way more special than it has any right to.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Boil your pasta in well-salted water until just al dente — taste it a minute before the package says it's done. Save a mug of pasta water before you drain it.",
+      "In a wide pan over medium-low heat, melt a knob of butter (or use olive oil). Add your drained pasta and toss to coat.",
+      "Pour in the cream and stir everything together. Let it bubble gently for 2–3 minutes until it thickens slightly around the pasta.",
+      "If you have any hard cheese — parmesan, pecorino, even cheddar in a pinch — stir some in now. Add a splash of pasta water if it gets too thick.",
+      "Finish with a truly generous amount of cracked black pepper and a pinch of salt. That pepper is the whole point here — don't be shy."
+    ],
+    "toolSuggestion": null,
+    "missingCount": 1,
+    "imageUrl": "https://img.spoonacular.com/recipes/637591-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 5
+    },
+    "missingIngredients": [
+      "nutmeg",
+      "parmiggiano reggiano",
+      "butter"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "664206",
+    "name": "Simple Chicken Noodle Broth Bowl",
+    "pitch": "If your pasta happens to be a noodle-style, this quick Asian-inspired broth bowl uses your chicken beautifully and comes together in under 20 minutes.",
+    "timeEstimate": "~20 min",
+    "steps": [
+      "Cook your noodles/pasta in boiling salted water, then drain and set aside.",
+      "In the same pot, add about 3 cups of water with a splash of soy sauce, a small splash of vinegar or any cooking wine you have, and a pinch of salt. Bring to a simmer — this is your quick broth.",
+      "Slice your chicken and add it to the broth to warm through (or if it's raw, simmer it gently for 6–8 minutes until cooked).",
+      "Add the noodles back in and simmer together for another minute or two.",
+      "Serve in deep bowls. Top with whatever you have — a drizzle of sesame oil, some sliced green onion, or even just extra black pepper. Simple but satisfying."
+    ],
+    "toolSuggestion": "wok",
+    "missingCount": 2,
+    "imageUrl": "https://img.spoonacular.com/recipes/664206-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 5
+    },
+    "missingIngredients": [
+      "chicken broth cube-1",
+      "rice wine",
+      "spring onions greens"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "660109",
+    "name": "Simple Lentil Soup",
+    "pitch": "With just lentils and tomatoes already on hand, this humble soup is exactly the kind of thing that makes you feel like you've got it together on a weeknight.",
+    "timeEstimate": "~55 min (or 20 min with a pressure cooker)",
+    "steps": [
+      "Rinse your lentils well under cold water, then let them soak in lukewarm water for 20–30 minutes if you have time — it helps them cook more evenly, though you can skip it if you're in a rush.",
+      "Chop your tomatoes roughly and toss them into a saucepan with the lentils. If you have an onion, halve it and throw it in — it adds a lot of flavor. Garlic is great here too if you have it.",
+      "Cover everything with water (about 4–5 cups), add a pinch of salt and pepper, and bring to a boil. Reduce heat and simmer for 45 minutes to an hour until the lentils are soft and creamy.",
+      "Taste and adjust salt. A small splash of vinegar or lemon juice at the end brightens the whole thing up — totally optional but worth it if you have either on hand.",
+      "Serve as-is, or with some crusty bread if you've got it."
+    ],
+    "toolSuggestion": "pressure cooker",
+    "missingCount": 2,
+    "imageUrl": "https://img.spoonacular.com/recipes/642468-556x370.jpg",
+    "matchScore": {
+      "have": 3,
+      "total": 10
+    },
+    "missingIngredients": [
+      "amchar masala",
+      "cauliflower head",
+      "garlic cloves",
+      "onion",
+      "peas",
+      "yogurt",
+      "masala molida"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "642468",
+    "name": "Ethiopian-Style Lentil Curry",
+    "pitch": "This is a deeply warming, hearty curry — and honestly, even a simplified version with whatever spices you have in the cupboard is really satisfying.",
+    "timeEstimate": "~70 min",
+    "steps": [
+      "Heat a glug of oil in a large pot over medium heat. If you have an onion, dice it and cook until soft and golden, about 8 minutes — this is the flavor base, so don't rush it.",
+      "Add garlic if you have it (2–3 cloves, minced or just roughly chopped). Cook for another minute until fragrant.",
+      "Add your lentils and stir them around for a couple of minutes. Now's the time to add whatever spices you have — cumin, curry powder, chili flakes, smoked paprika all work well here. The recipe calls for amchar masala and masala molida, but a teaspoon each of cumin and curry powder is a totally solid substitute.",
+      "Pour in your canned or chopped tomatoes plus a squeeze of tomato paste if you have it. Add about 2 cups of water and stir everything together.",
+      "Bring to a boil, then reduce heat, cover, and simmer on low for about an hour until the lentils are completely tender. Check occasionally and add a splash more water if it's getting too thick.",
+      "If you have plain yogurt, stir a dollop in right at the end — it makes it creamy and cools the heat a little. Serve over rice or with flatbread if you have either."
+    ],
+    "toolSuggestion": "large pot",
+    "missingCount": 3,
+    "imageUrl": "https://img.spoonacular.com/recipes/660109-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 6
+    },
+    "missingIngredients": [
+      "bay leaf",
+      "garlic",
+      "onion",
+      "vinegar"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-1",
+    "name": "Spiced Red Lentil & Tomato Soup",
+    "pitch": "Lentils and tomatoes are a classic pairing that come together into a hearty, warming soup with just pantry spices doing the heavy lifting.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Heat a drizzle of oil in a medium pot over medium heat. Add 2–3 minced garlic cloves and cook for about a minute until fragrant.",
+      "Stir in 1 tsp cumin, ½ tsp turmeric, and a pinch of chili flakes (or whatever warm spices you have), and let them toast for 30 seconds.",
+      "Add 1 cup of rinsed lentils and your chopped tomatoes (2–3 fresh or a can works great). Stir everything together.",
+      "Pour in about 3 cups of water, season generously with salt and pepper, and bring to a boil.",
+      "Reduce heat and simmer for 20–25 minutes until the lentils are completely soft. Taste and adjust seasoning — a small splash of vinegar at the end brightens it up nicely.",
+      "Serve as-is for a rustic soup, or use an immersion blender to make it silky smooth. Simple but genuinely satisfying."
+    ],
+    "toolSuggestion": "immersion blender",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

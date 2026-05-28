@@ -1,0 +1,76 @@
+[
+  {
+    "id": "generated-1",
+    "name": "Pan-Seared Lemon Dill Salmon",
+    "pitch": "Simple, elegant, and on the table in under 20 minutes — the lemon and dill are a classic pair that make salmon taste like a restaurant meal.",
+    "timeEstimate": "~18 min",
+    "steps": [
+      "Pat your salmon fillets dry with a paper towel and season generously with salt and pepper on both sides.",
+      "Heat a splash of oil in a skillet over medium-high heat until it shimmers, then lay the salmon in skin-side up.",
+      "Cook for about 4 minutes, flip, then add a knob of butter, a few sprigs of fresh dill, and squeeze half the lemon over the top.",
+      "Baste the salmon with the buttery pan juices for another 3–4 minutes until cooked through, then serve with lemon wedges."
+    ],
+    "toolSuggestion": "A good non-stick or cast iron skillet",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-2",
+    "name": "Garlic Dill Salmon with Pasta",
+    "pitch": "Tossing flaked salmon through garlicky buttered pasta with lemon zest turns three humble ingredients into a surprisingly satisfying weeknight bowl.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Boil salted water and cook whatever pasta you have on hand until al dente, reserving a cup of pasta water before draining.",
+      "Meanwhile, season the salmon with salt, pepper, and a little dill, then pan-fry in oil over medium heat for 4–5 minutes per side, then flake it into big chunks.",
+      "In the same pan, sauté a few cloves of sliced garlic in butter for 1–2 minutes, then add the drained pasta and a splash of pasta water to loosen.",
+      "Toss in the flaked salmon, a squeeze of lemon, the zest of half a lemon, and the remaining dill — taste for seasoning and serve right away."
+    ],
+    "toolSuggestion": "A large pasta pot and a wide skillet",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "pasta"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "pasta"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-3",
+    "name": "Sheet Pan Salmon with Roasted Veggies",
+    "pitch": "If you have any vegetables hiding in your fridge — even just onion or a potato — this hands-off sheet pan dinner lets the oven do all the work.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Preheat your oven to 400°F (200°C) and line a baking sheet with foil or parchment.",
+      "Chop any vegetables you have into similar-sized pieces, toss with oil, salt, and pepper, and spread on the pan — roast for 10 minutes alone first.",
+      "Nestle the salmon fillets among the veggies, drizzle with oil, season with salt, pepper, and dill, then lay thin lemon slices on top.",
+      "Roast everything together for another 12–15 minutes until the salmon flakes easily, then finish with a squeeze of fresh lemon juice."
+    ],
+    "toolSuggestion": "A rimmed baking sheet",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "vegetables (any kind — potato, zucchini, onion, asparagus, etc.)"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "vegetables (any kind — potato, zucchini, onion, asparagus, etc.)"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

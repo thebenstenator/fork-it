@@ -1,0 +1,79 @@
+[
+  {
+    "id": "generated-1",
+    "name": "Turkey & Zucchini Stir-Fry",
+    "pitch": "A quick, savory weeknight hero — the soy sauce and garlic do all the heavy lifting here.",
+    "timeEstimate": "~20 min",
+    "steps": [
+      "Heat a splash of oil in a large skillet or wok over high heat.",
+      "Add the ground turkey and break it up, seasoning with salt, pepper, and a pinch of garlic. Cook until browned, about 6–8 minutes.",
+      "Slice the zucchini into half-moons and toss it into the pan. Stir-fry for 3–4 minutes until just tender.",
+      "Drizzle in 2–3 tablespoons of soy sauce and a splash of vinegar, toss everything together, and cook for 1 more minute.",
+      "Serve on its own or over rice if you have it."
+    ],
+    "toolSuggestion": "Large skillet or wok",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-2",
+    "name": "Garlic Turkey & Zucchini Skillet with Pasta",
+    "pitch": "Simple but satisfying — this tastes like something that took way more effort than it did.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Boil pasta (any shape you have) in salted water according to package directions — this is the one ingredient you'll need from your pantry or cupboard.",
+      "Meanwhile, brown the ground turkey in a large skillet with oil, plenty of garlic, salt, and pepper.",
+      "Dice or slice the zucchini and stir it into the turkey. Cook for 4–5 minutes until softened.",
+      "Drain the pasta, reserving a splash of pasta water, and toss it into the skillet.",
+      "Add a little butter and a spoonful of pasta water to make a light, glossy sauce. Taste and adjust seasoning."
+    ],
+    "toolSuggestion": "Large skillet",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "pasta"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "pasta"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-3",
+    "name": "Spiced Turkey & Zucchini Lettuce Cups",
+    "pitch": "A fun, hands-on dinner that feels fresh and a little different — great if you want something lighter.",
+    "timeEstimate": "~20 min",
+    "steps": [
+      "Cook the ground turkey in a skillet with oil over medium-high heat, breaking it apart. Season with garlic, cumin (if you have it), salt, and pepper.",
+      "Dice the zucchini small and add it to the pan in the last 5 minutes, cooking until just tender.",
+      "Add a splash of soy sauce and a tiny bit of vinegar to brighten the filling. Stir and taste.",
+      "Spoon the mixture into lettuce leaves to serve — butter lettuce or romaine work best.",
+      "No lettuce? Serve it over rice, in a tortilla, or just straight from the bowl — it's still delicious."
+    ],
+    "toolSuggestion": "Large skillet",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "lettuce"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "lettuce"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

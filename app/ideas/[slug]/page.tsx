@@ -1,8 +1,11 @@
 import { notFound } from 'next/navigation'
+import { readFileSync, existsSync } from 'fs'
+import { join } from 'path'
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { IDEAS, getIdeasMeals } from '@/lib/ideas'
+import { IDEAS } from '@/lib/ideas'
 import { IdeaPageContent } from '@/components/IdeaPageContent'
+import type { Meal } from '@/lib/types'
 
 // Only render slugs defined in IDEAS — anything else is a 404
 export const dynamicParams = false
@@ -36,6 +39,16 @@ export async function generateMetadata({
   }
 }
 
+function loadMeals(slug: string): Meal[] {
+  const filePath = join(process.cwd(), 'data', 'ideas', `${slug}.json`)
+  if (!existsSync(filePath)) {
+    throw new Error(
+      `Missing pre-generated data for "${slug}". Run: npm run generate:ideas`
+    )
+  }
+  return JSON.parse(readFileSync(filePath, 'utf-8')) as Meal[]
+}
+
 export default async function IdeaPage({
   params,
 }: {
@@ -45,7 +58,7 @@ export default async function IdeaPage({
   const idea = IDEAS.find((i) => i.slug === slug)
   if (!idea) notFound()
 
-  const meals = await getIdeasMeals(idea)
+  const meals = loadMeals(slug)
   const relatedIdeas = IDEAS.filter((i) => idea.relatedSlugs.includes(i.slug))
 
   return (

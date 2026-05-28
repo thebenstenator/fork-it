@@ -1,0 +1,83 @@
+[
+  {
+    "id": "generated-1",
+    "name": "Garlic Butter Chicken with Sautéed Mushrooms",
+    "pitch": "Simple, cozy, and ready in under 30 minutes — butter and garlic turn chicken and mushrooms into something that feels genuinely special.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Season chicken breasts or thighs generously with salt and pepper on both sides.",
+      "Heat a splash of oil in a skillet over medium-high heat, then sear the chicken for about 5-6 minutes per side until golden and cooked through. Set aside to rest.",
+      "In the same pan, melt 2 tablespoons of butter and add sliced mushrooms. Cook until golden, about 5 minutes.",
+      "Add 3 minced garlic cloves and cook for 1 more minute, stirring so it doesn't burn.",
+      "Slice the chicken, plate it, and spoon the garlicky mushrooms right over the top. Done!"
+    ],
+    "toolSuggestion": "A heavy skillet or cast iron pan for a good sear",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-2",
+    "name": "Soy-Glazed Chicken and Mushroom Stir-Fry",
+    "pitch": "A quick Asian-inspired stir-fry that comes together fast and tastes like takeout — without leaving the house.",
+    "timeEstimate": "~20 min",
+    "steps": [
+      "Cut chicken into bite-sized pieces and season lightly with salt and pepper.",
+      "Mix together 3 tablespoons soy sauce, 1 tablespoon vinegar, a pinch of black pepper, and a small splash of oil to make your sauce.",
+      "Heat oil in a wok or large skillet over high heat. Cook the chicken pieces, stirring frequently, until golden — about 5-6 minutes.",
+      "Add sliced mushrooms and stir-fry for another 3-4 minutes until they soften.",
+      "Pour the sauce over everything, toss to coat, and cook for 1-2 more minutes until the sauce thickens slightly. Serve over rice or on its own — both work great.",
+      "Note: Rice would be a lovely base here, but it's not required — this is filling on its own too."
+    ],
+    "toolSuggestion": "A wok or the largest skillet you have for high-heat cooking",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "rice"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "rice"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-3",
+    "name": "Creamy Mushroom Chicken Skillet",
+    "pitch": "Rich, hearty, and comforting — this is the kind of one-pan dinner that makes everyone at the table quiet in a good way.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Season chicken thighs or breasts with salt, pepper, and a pinch of dried thyme or Italian seasoning if you have it.",
+      "Sear the chicken in a skillet with oil over medium-high heat, about 5-6 minutes per side, until cooked through. Set aside.",
+      "In the same pan, melt a tablespoon of butter and cook sliced mushrooms until golden, about 4-5 minutes.",
+      "Add 2 minced garlic cloves and cook 30 seconds.",
+      "Pour in about ½ cup of water or chicken broth if you have it, scraping up any browned bits from the bottom — that's pure flavor.",
+      "Stir in ¼ cup of heavy cream or sour cream if you have either (see note below), and let it simmer for 2-3 minutes until the sauce thickens slightly.",
+      "Return the chicken to the pan, spoon the sauce over it, and serve hot.",
+      "Note: Heavy cream or sour cream makes this dish — if you don't have either, the sauce will still be tasty but thinner and more like a pan sauce."
+    ],
+    "toolSuggestion": "A wide skillet with a lid to help the chicken cook evenly",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "heavy cream or sour cream"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "heavy cream or sour cream"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

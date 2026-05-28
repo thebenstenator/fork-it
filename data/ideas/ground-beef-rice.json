@@ -1,0 +1,82 @@
+[
+  {
+    "id": "generated-1",
+    "name": "Garlic Butter Beef Rice Bowl",
+    "pitch": "Simple, savory, and deeply satisfying — this one-pan meal turns two humble ingredients into something the whole family will ask for again.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Cook your rice according to package directions.",
+      "While rice cooks, heat a drizzle of oil in a skillet over medium-high heat. Add ground beef and break it apart as it browns, about 6-8 minutes.",
+      "Drain excess fat if needed, then add 2-3 minced garlic cloves and a tablespoon of butter. Stir for 1-2 minutes until fragrant.",
+      "Season generously with salt, pepper, and a splash of soy sauce for depth.",
+      "Spoon the beef over rice and serve — feel free to add a fried egg on top if you have one!"
+    ],
+    "toolSuggestion": "A wide skillet or cast iron pan",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-2",
+    "name": "DIY Beef Taco Rice Skillet",
+    "pitch": "All the cozy flavors of taco night mixed into one skillet — no tortillas needed, and it comes together fast.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Cook rice according to package directions.",
+      "Brown the ground beef in a skillet over medium-high heat, breaking it up as it cooks. Drain excess fat.",
+      "Season the beef with cumin, chili powder, garlic, salt, and pepper — about a teaspoon each of the spices, adjusted to your taste.",
+      "Stir the cooked rice right into the skillet with the beef and mix well so the spices coat everything.",
+      "Taste and adjust seasoning. This is simple but satisfying on its own, and even better with shredded cheese or salsa if you have them."
+    ],
+    "toolSuggestion": "A large skillet with a lid",
+    "missingCount": 2,
+    "missingIngredientNames": [
+      "shredded cheese",
+      "salsa"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "shredded cheese",
+      "salsa"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-3",
+    "name": "Asian-Style Beef Fried Rice",
+    "pitch": "Soy sauce and a hot pan work magic here — this tastes like takeout and uses exactly what you have.",
+    "timeEstimate": "~20 min (plus cooled rice if possible)",
+    "steps": [
+      "Cook rice ahead of time and let it cool if you can — even 10 minutes helps it fry better and not go mushy. Day-old rice is ideal.",
+      "Heat a generous drizzle of oil in a large skillet or wok over high heat until it's very hot.",
+      "Add ground beef and cook, breaking it into small crumbles, until browned — about 5-6 minutes. Push it to the side.",
+      "Add the rice to the hot pan and let it sit undisturbed for 1-2 minutes to get a little crispy on the bottom.",
+      "Mix the beef and rice together, then add 2-3 tablespoons of soy sauce, a splash of rice or white vinegar, and minced garlic. Stir-fry everything together for 2-3 more minutes.",
+      "Taste and adjust with more soy sauce or a pinch of pepper. A drizzle of sesame oil would be amazing here if you have it!"
+    ],
+    "toolSuggestion": "A wok or the largest skillet you own",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "sesame oil"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "sesame oil"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

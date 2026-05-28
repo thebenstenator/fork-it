@@ -1,0 +1,93 @@
+[
+  {
+    "id": "638381",
+    "name": "Chicken Thighs with Garlic and Rosemary Potatoes",
+    "pitch": "Crispy-skinned chicken thighs and golden potatoes roasted together — this one's simple comfort food that feels a little fancy without any extra effort.",
+    "timeEstimate": "~45 min",
+    "steps": [
+      "Preheat your oven to 375°F (190°C). Cut your potatoes into chunks and microwave them for 4–5 minutes until just barely tender, then drain.",
+      "Pat your chicken thighs dry with a paper towel — this is the secret to crispy skin. Season them with salt, pepper, and whatever spice you have on hand (paprika, Italian seasoning, or even just garlic powder work great if you don't have cajun seasoning).",
+      "Heat a little oil in an oven-safe skillet or regular frying pan over medium-high heat. Place the chicken skin-side down and let it sear undisturbed for about 5 minutes until golden. Flip and sear the other side for 2 minutes, then set aside.",
+      "Toss your par-cooked potatoes in the same pan with a drizzle of oil, salt, and pepper. Fry for a couple of minutes until they pick up some of that chicken flavor.",
+      "If you have garlic, slice a clove or two and tuck the pieces under the chicken skin. Dried rosemary (or thyme, or nothing at all) works fine sprinkled on top.",
+      "Arrange everything in a baking dish or keep it in the pan if it's oven-safe. Roast for about 20 minutes until the chicken is cooked through. Serve straight from the pan."
+    ],
+    "toolSuggestion": "cast iron skillet",
+    "missingCount": 2,
+    "imageUrl": "https://img.spoonacular.com/recipes/638381-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 6
+    },
+    "missingIngredients": [
+      "cajun seasoning",
+      "carrots",
+      "rosemary",
+      "garlic"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "635821",
+    "name": "Braised Chicken with Miso and Potatoes",
+    "pitch": "A cozy, saucy braise where the potatoes soak up all that savory goodness — and soy sauce (a pantry staple) does a lot of the heavy lifting here.",
+    "timeEstimate": "~45 min",
+    "steps": [
+      "Cut your chicken thighs into chunks (or leave them whole — either works). Peel your potatoes and cut into bite-sized pieces, then soak them in water for a few minutes to remove excess starch.",
+      "Heat a little oil in a wok or deep pan over medium heat. If you have garlic, chop a couple of cloves and fry them for about a minute until fragrant. If you have miso paste, add a tablespoon or two now and stir it around — if not, a bit of extra soy sauce gives you that savory depth.",
+      "Add the chicken pieces and stir-fry for a few minutes. Pour in 2 tablespoons of soy sauce and a pinch of sugar if you have it, and toss everything together.",
+      "Drain your potatoes and add them to the pan. Pour in just enough water to mostly cover everything — about 1 to 1.5 cups. Bring to a boil, then cover, reduce heat, and let it simmer for 20 minutes until the potatoes are fork-tender and the chicken is cooked through.",
+      "If the sauce seems thin, let it bubble uncovered for a few extra minutes to reduce. Serve over rice."
+    ],
+    "toolSuggestion": "wok",
+    "missingCount": 1,
+    "imageUrl": "https://img.spoonacular.com/recipes/635821-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 6
+    },
+    "missingIngredients": [
+      "corn flour",
+      "garlic",
+      "fermented soy bean paste",
+      "soy sauce"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "658211",
+    "name": "Simple Roasted Chicken and Potatoes",
+    "pitch": "Strip away the fancy extras and this is really just a solid, reliable sheet-pan dinner — well-seasoned chicken and crispy potatoes, no fuss.",
+    "timeEstimate": "~50 min",
+    "steps": [
+      "Preheat your oven to 400°F (200°C). Cut your potatoes into halves or quarters depending on size — you want them roughly bite-sized so they cook through.",
+      "Pat your chicken thighs dry, then rub them generously with oil, salt, and pepper. Nestle them on a sheet pan or in a baking dish. Scatter the potato pieces around them and drizzle with a little more oil, salt, and pepper.",
+      "If you have any dried herbs — thyme, rosemary, oregano — sprinkle them over everything now. Even just garlic powder makes a big difference.",
+      "Roast for 35–40 minutes until the chicken skin is golden and crispy and the potatoes are tender when you poke them with a fork. If the skin isn't crisping up, pop it under the broiler for 2–3 minutes at the end.",
+      "Let it rest for a few minutes before serving — that's it. This is simple but genuinely satisfying."
+    ],
+    "toolSuggestion": "sheet pan",
+    "missingCount": 0,
+    "imageUrl": "https://img.spoonacular.com/recipes/658211-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 6
+    },
+    "missingIngredients": [
+      "several of rosemary",
+      "kale",
+      "rhubarb",
+      "honey"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

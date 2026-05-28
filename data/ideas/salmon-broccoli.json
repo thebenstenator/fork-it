@@ -1,0 +1,80 @@
+[
+  {
+    "id": "658509",
+    "name": "Roasted Broccoli with Lemon and Garlic Salmon",
+    "pitch": "You've got salmon and broccoli — roast them together on one pan and dinner basically makes itself.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Preheat your oven to 400°F. While it heats up, cut your broccoli into florets and pat your salmon dry with a paper towel.",
+      "Toss the broccoli with a drizzle of olive oil, salt, pepper, and a clove or two of garlic (minced or thinly sliced). Spread it on a sheet pan.",
+      "Nestle the salmon fillet(s) right on the same pan. Drizzle a little oil over the salmon and season with salt and pepper.",
+      "Roast everything for 15–20 minutes, until the broccoli is tender and a little crispy at the edges and the salmon flakes easily with a fork.",
+      "No lemon? A small splash of white vinegar or nothing at all is totally fine — squeeze it over at the end if you have it."
+    ],
+    "toolSuggestion": "sheet pan",
+    "missingCount": 1,
+    "imageUrl": "https://img.spoonacular.com/recipes/658509-556x370.jpg",
+    "matchScore": {
+      "have": 1,
+      "total": 3
+    },
+    "missingIngredients": [
+      "garlic",
+      "lemon juice"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "658512",
+    "name": "Crispy Roasted Broccoli with Chili Flakes",
+    "pitch": "Simple and satisfying — this broccoli gets genuinely crispy edges in the oven, and pairs perfectly as a side to your salmon.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Preheat your oven to 400°F. Cut the broccoli into bite-sized pieces — don't go too small or they'll burn before they crisp up. The stalks are worth using too; just peel them if they feel tough.",
+      "Spread the broccoli on a sheet pan. Add a clove or two of thinly sliced garlic, a light drizzle of oil, and a pinch of salt. Toss it all with your hands right on the pan.",
+      "No red pepper flakes? A pinch of regular chili powder or just black pepper works fine — or skip it entirely.",
+      "Roast for about 10–12 minutes, shaking the pan once or twice. Watch the garlic — you want it golden, not dark brown. Pull it when the edges of the broccoli look a little charred and delicious.",
+      "Serve alongside your salmon for a fuss-free weeknight plate."
+    ],
+    "toolSuggestion": "sheet pan",
+    "missingCount": 1,
+    "imageUrl": "https://img.spoonacular.com/recipes/658512-556x370.jpg",
+    "matchScore": {
+      "have": 1,
+      "total": 3
+    },
+    "missingIngredients": [
+      "garlic",
+      "pepper flakes"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-1",
+    "name": "Garlic Butter Salmon with Roasted Broccoli",
+    "pitch": "Salmon and broccoli are honestly a dream team — a little garlic butter ties them together into a simple, satisfying dinner that feels way fancier than the effort it takes.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Preheat your oven to 425°F (220°C). Cut the broccoli into florets, toss with oil, salt, and pepper, and spread on a baking sheet. Pop it in the oven for about 20 minutes, flipping once halfway through.",
+      "While the broccoli roasts, pat your salmon dry and season both sides with salt and pepper. Heat a splash of oil in a skillet over medium-high heat.",
+      "Cook the salmon skin-side up for about 3–4 minutes until golden, then flip. Add a knob of butter and a couple of minced garlic cloves to the pan and spoon the garlicky butter over the salmon as it finishes cooking, another 3–4 minutes depending on thickness.",
+      "Plate the salmon alongside the roasted broccoli and drizzle any pan butter over the top. Simple but genuinely delicious."
+    ],
+    "toolSuggestion": "A cast iron or stainless steel skillet for a great sear on the salmon",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

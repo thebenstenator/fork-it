@@ -1,0 +1,77 @@
+[
+  {
+    "id": "656738",
+    "name": "Pork Chops with Apples and Onions",
+    "pitch": "You've already got the two stars of this dish — the pork and apples do most of the heavy lifting, and a simple pan sauce pulls it all together into something that feels way more special than the effort involved.",
+    "timeEstimate": "~40 min",
+    "steps": [
+      "Pat your pork chops dry and season both sides generously with salt and pepper. Heat a splash of oil in a large skillet over medium-high heat, then sear the chops about 5 minutes per side until nicely browned. Set them aside on a plate.",
+      "In the same pan, add a tablespoon of butter if you have it (or just a little more oil). Slice your apples and toss them in — no onion? No problem. A few slices of leek work great, or just skip it and let the apples shine solo. Cook for about 8 minutes until soft and starting to caramelize.",
+      "Pour in about a splash (¼ cup) of whatever liquid you have — chicken broth is ideal, but apple juice, beer, or even water will do. Scrape up any browned bits from the bottom of the pan.",
+      "Nestle the pork chops back in, spoon the apple mixture over the top, and cover loosely. Cook on medium-low for another 12–15 minutes until the pork is cooked through and tender.",
+      "Serve over rice, mashed potatoes, or just with some bread to soak up that sauce. Spoon plenty of the apple mixture over each chop."
+    ],
+    "toolSuggestion": "cast iron skillet",
+    "missingCount": 1,
+    "imageUrl": "https://img.spoonacular.com/recipes/656738-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 5
+    },
+    "missingIngredients": [
+      "butter",
+      "onion",
+      "white wine"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-1",
+    "name": "Pan-Seared Pork Chops with Apple Pan Sauce",
+    "pitch": "Pork and apples are a classic pairing, and a quick pan sauce turns two simple ingredients into something that feels really special.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Pat your pork chops dry and season generously on both sides with salt and pepper.",
+      "Heat a splash of oil in a skillet over medium-high heat until shimmering, then sear the chops for 3–4 minutes per side until golden and cooked through (internal temp 145°F). Remove and let them rest.",
+      "In the same pan over medium heat, add a knob of butter and toss in thinly sliced apple. Cook for 2–3 minutes until softened and lightly golden.",
+      "Add a splash of vinegar (apple cider or white wine vinegar works great) and a pinch of garlic, scraping up any browned bits from the pan. Let it bubble for a minute until slightly syrupy.",
+      "Spoon the apple pan sauce over your rested pork chops and serve — simple as that!"
+    ],
+    "toolSuggestion": "A heavy skillet or cast iron pan for a good sear",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-2",
+    "name": "Soy-Glazed Pork Chops with Roasted Apple Wedges",
+    "pitch": "A savory-sweet soy glaze gives these pork chops an Asian-inspired twist, and the roasted apples get wonderfully caramelized alongside them in the oven.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Preheat your oven to 425°F. Cut your apples into wedges (no need to peel) and spread them on a baking sheet. Drizzle with oil, season with salt and pepper, and roast for about 10 minutes while you prep the pork.",
+      "Whisk together 2 tablespoons soy sauce, 1 tablespoon vinegar, a teaspoon of oil, a pinch of garlic, and a pinch of pepper to make your glaze.",
+      "Nestle the pork chops onto the baking sheet alongside the apples and brush them generously with the soy glaze.",
+      "Roast everything together for 12–15 minutes, flipping the chops once halfway through and brushing with more glaze, until the pork is cooked through and the apples are tender and caramelized.",
+      "Let the chops rest a couple of minutes before serving alongside the sticky, jammy apple wedges."
+    ],
+    "toolSuggestion": "A rimmed baking sheet for even roasting",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

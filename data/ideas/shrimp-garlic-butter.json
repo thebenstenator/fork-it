@@ -1,0 +1,91 @@
+[
+  {
+    "id": "642096",
+    "name": "Easy Shrimp Scampi",
+    "pitch": "With just butter, garlic, and shrimp you've already got the soul of scampi — a squeeze of lemon and a handful of pasta (if you have any) and dinner is honestly done.",
+    "timeEstimate": "~15 min",
+    "steps": [
+      "Melt 3–4 tablespoons of butter in a large skillet over medium heat. (Skip the oil — butter alone works great here.)",
+      "Add as much minced or sliced garlic as you like and let it sizzle for about 30 seconds until fragrant — don't let it brown.",
+      "If you have white wine, splash in about 1/4 cup and let it bubble for a minute. No wine? A small squeeze of lemon juice works, or just skip it entirely — the garlic butter is the star anyway.",
+      "Add your shrimp in a single layer and cook on high heat, stirring often, until they're pink and just curled — about 2–3 minutes. Pull them off the heat the moment they're done so they stay tender.",
+      "Season with salt and pepper. If you have fresh or dried parsley, scatter some on top. Serve over pasta, rice, or just with some crusty bread to soak up that butter."
+    ],
+    "toolSuggestion": "cast iron skillet",
+    "missingCount": 2,
+    "imageUrl": "https://img.spoonacular.com/recipes/642096-556x370.jpg",
+    "matchScore": {
+      "have": 3,
+      "total": 6
+    },
+    "missingIngredients": [
+      "parsley",
+      "lemon juice",
+      "white wine"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "1095938",
+    "name": "Garlic Butter Shrimp with Pasta",
+    "pitch": "This is a simple, satisfying weeknight plate — if you've got pasta in the cupboard, you're most of the way there already.",
+    "timeEstimate": "~20 min",
+    "steps": [
+      "If you have pasta (any kind), get a pot of salted water boiling now so it's ready when the shrimp are done.",
+      "Rinse your shrimp and pat them dry with a paper towel — this helps them sear instead of steam.",
+      "Warm a large pan over medium-low heat, add a drizzle of oil if you have it (or just use butter), and cook your garlic until it smells amazing — about 1 minute.",
+      "No white wine? No problem. Add a splash of water or chicken broth if you have it, or skip it and go straight to the butter. Add your butter and let it melt gently on low heat for a few minutes to build a simple sauce.",
+      "Add the shrimp and cook until pink and opaque, about 3–4 minutes per side. A squeeze of lemon at the end is great if you have one, but not essential.",
+      "Toss with your drained pasta (or serve over rice), and that's dinner."
+    ],
+    "toolSuggestion": "null",
+    "missingCount": 1,
+    "imageUrl": "https://img.spoonacular.com/recipes/1095938-556x370.jpg",
+    "matchScore": {
+      "have": 3,
+      "total": 6
+    },
+    "missingIngredients": [
+      "white wine",
+      "juice of lemon",
+      "linguine"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "649892",
+    "name": "Garlic Shrimp with White Beans",
+    "pitch": "If you happen to have a can of white beans hiding in your pantry, this turns your shrimp into something that actually feels like a complete, hearty meal.",
+    "timeEstimate": "~20 min",
+    "steps": [
+      "Check your pantry for a can of cannellini or any white beans — that's the main thing this recipe needs. Great Northern or navy beans work perfectly too.",
+      "Melt a tablespoon of butter in a large skillet over medium-high heat, then add your garlic and cook for 30 seconds.",
+      "Add the shrimp and cook, stirring, until they just start to turn pink — about 3 minutes.",
+      "Drain and rinse your canned beans and stir them in. Add another tablespoon of butter, season well with salt and pepper, and let everything warm through together for 2–3 minutes.",
+      "A squeeze of lemon brightens this up nicely if you have one. Serve as-is or over rice — it's simple but genuinely filling."
+    ],
+    "toolSuggestion": "null",
+    "missingCount": 2,
+    "imageUrl": "https://img.spoonacular.com/recipes/649892-556x370.jpg",
+    "matchScore": {
+      "have": 3,
+      "total": 7
+    },
+    "missingIngredients": [
+      "cannellini beans",
+      "flat-leaf parsley",
+      "half of trader joe's harvest grains",
+      "lemon juice"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

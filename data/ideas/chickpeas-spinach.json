@@ -1,0 +1,73 @@
+[
+  {
+    "id": "generated-1",
+    "name": "Garlicky Chickpea & Spinach Sauté",
+    "pitch": "This simple Mediterranean-style skillet comes together in minutes and tastes like you put in way more effort than you did.",
+    "timeEstimate": "~15 min",
+    "steps": [
+      "Heat a generous drizzle of olive oil in a large skillet over medium heat. Add 3–4 minced garlic cloves and cook for about 1 minute until fragrant.",
+      "Add your drained, rinsed chickpeas and season with salt, pepper, and a pinch of cumin or paprika if you have it. Cook for 5–6 minutes, stirring occasionally, until they get a little golden.",
+      "Toss in the spinach a few big handfuls at a time, stirring until wilted — just 2–3 minutes. Finish with a splash of vinegar or a squeeze of lemon juice if you have one, and taste for seasoning. Serve as-is or over rice or toast."
+    ],
+    "toolSuggestion": "Large skillet or sauté pan",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-2",
+    "name": "Spiced Chickpea & Spinach Curry",
+    "pitch": "A cozy, warming curry that's incredibly satisfying — just note you'll want a can of coconut milk or diced tomatoes to make the sauce, which you may not have on hand.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Heat oil in a pot over medium heat. Sauté 3 cloves of minced garlic for 1 minute, then add 1 tsp cumin, 1 tsp turmeric, and 1 tsp paprika (or whatever warm spices you have). Stir for 30 seconds.",
+      "Add your drained chickpeas and one can of diced tomatoes (or coconut milk). Stir everything together, bring to a simmer, and let it cook for 10–12 minutes so the flavors meld.",
+      "Stir in the spinach and let it wilt for 2–3 minutes. Season well with salt and pepper. Serve over rice or with bread for dipping — simple but really comforting."
+    ],
+    "toolSuggestion": "Medium saucepan or pot with a lid",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "canned diced tomatoes or coconut milk"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "canned diced tomatoes or coconut milk"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-3",
+    "name": "Crispy Chickpea & Spinach Rice Bowl",
+    "pitch": "Roasting the chickpeas gives them an addictive crunch that makes this bowl feel way more special than its short ingredient list suggests.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Preheat your oven to 425°F (220°C). Pat your drained chickpeas very dry with a paper towel — this is the key to crispiness! Toss them with oil, salt, pepper, and any spice you like (smoked paprika is great). Spread on a baking sheet and roast for 20–25 minutes, shaking once halfway through.",
+      "While the chickpeas roast, cook rice according to package directions. In the last few minutes, toss your spinach into the rice pot with a splash of water and put the lid back on — it'll steam and wilt right in there.",
+      "Scoop rice and spinach into bowls, top with the crispy chickpeas, and drizzle with a little soy sauce or a splash of vinegar for brightness. It's simple but satisfying."
+    ],
+    "toolSuggestion": "Rimmed baking sheet",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "rice"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "rice"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

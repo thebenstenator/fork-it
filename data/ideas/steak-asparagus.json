@@ -1,0 +1,76 @@
+[
+  {
+    "id": "generated-1",
+    "name": "Garlic Butter Steak with Roasted Asparagus",
+    "pitch": "A classic, satisfying combo that feels like a restaurant dinner but comes together in under 30 minutes with almost no effort.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Preheat your oven to 425°F. Toss asparagus with oil, salt, and pepper on a baking sheet and roast for 12–15 minutes until tender and slightly crispy at the tips.",
+      "While the asparagus roasts, pat your steak dry, season generously with salt and pepper on both sides.",
+      "Heat a skillet over high heat with a little oil. Sear the steak 3–4 minutes per side (for medium), then drop in a knob of butter and a smashed garlic clove and baste the steak for 1 minute.",
+      "Let the steak rest for 5 minutes before slicing, then plate everything up together — simple and delicious."
+    ],
+    "toolSuggestion": "Cast iron skillet",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-2",
+    "name": "Steak and Asparagus Stir-Fry",
+    "pitch": "Slice the steak thin and toss it with asparagus in a savory garlic-soy sauce — it's a quick, punchy weeknight dinner with an Asian-inspired twist.",
+    "timeEstimate": "~20 min",
+    "steps": [
+      "Slice the steak thinly against the grain and toss with a little soy sauce, a pinch of pepper, and a splash of oil. Let it sit while you prep the asparagus.",
+      "Trim and cut the asparagus into 2-inch pieces. Mix together 2 tbsp soy sauce, 1 tsp vinegar, and a pinch of pepper in a small bowl for your sauce.",
+      "Heat a wok or large skillet over high heat until very hot. Add oil, then stir-fry the steak in a single layer for 1–2 minutes until browned. Remove and set aside.",
+      "In the same pan, stir-fry the asparagus with garlic for 3–4 minutes, then return the steak, pour over the sauce, toss everything together, and serve — ideally over rice, though it's great on its own too."
+    ],
+    "toolSuggestion": "Wok or large skillet",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "rice"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "rice"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-3",
+    "name": "Steak and Asparagus Frittata",
+    "pitch": "This is a clever, hearty way to stretch your steak into a filling egg-based dinner that works any time of day — simple but satisfying.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Preheat your broiler. Sear or pan-cook the steak to your liking, then let it rest and slice into small bite-sized pieces.",
+      "Blanch or lightly sauté the asparagus in an oven-safe skillet until just tender, about 3–4 minutes. Remove and cut into 1-inch pieces.",
+      "Whisk together 5–6 eggs with salt, pepper, and a little garlic powder. Pour the egg mixture into the skillet over medium heat, then scatter the steak and asparagus on top.",
+      "Cook undisturbed until the edges are set (about 4–5 minutes), then transfer the skillet to the broiler for 2–3 minutes until the top is golden and puffed. Slice like a pizza and serve."
+    ],
+    "toolSuggestion": "Oven-safe skillet",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "eggs"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "eggs"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

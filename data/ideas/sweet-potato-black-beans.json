@@ -1,0 +1,76 @@
+[
+  {
+    "id": "generated-1",
+    "name": "Sweet Potato & Black Bean Tacos",
+    "pitch": "Roasted sweet potato and spiced black beans make surprisingly hearty tacos — simple but genuinely satisfying.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Peel and dice the sweet potato into small cubes, toss with oil, cumin, and a pinch of chili powder, then roast at 425°F for 20 minutes until caramelized.",
+      "While the potato roasts, warm the black beans in a small pan with garlic, a splash of soy sauce, and a pinch of cumin.",
+      "Serve everything in warm tortillas — a squeeze of vinegar or hot sauce brightens it right up.",
+      "Top with whatever you have: shredded cabbage, sour cream, or just salt and pepper."
+    ],
+    "toolSuggestion": "baking sheet",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "tortillas"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "tortillas"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-2",
+    "name": "Black Bean & Sweet Potato Soup",
+    "pitch": "This is a cozy, warming bowl that practically makes itself — deeply flavorful with just pantry spices doing the heavy lifting.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Dice the sweet potato and sauté in a pot with oil and garlic over medium heat for about 5 minutes.",
+      "Add the black beans, 3–4 cups of water, a big pinch of cumin, smoked paprika if you have it, salt, and pepper. Bring to a boil.",
+      "Reduce heat and simmer 15–20 minutes until the sweet potato is very tender.",
+      "Use a fork or the back of a spoon to mash some of the beans and potato right in the pot — this thickens it beautifully without any extra work."
+    ],
+    "toolSuggestion": "immersion blender (optional, for a smoother texture)",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-3",
+    "name": "Sweet Potato & Black Bean Rice Bowl",
+    "pitch": "This is one of those meals that feels like more than the sum of its parts — a warm, filling bowl that comes together fast.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Cook rice according to package directions (about 2 cups water per 1 cup rice, 18 minutes simmered covered).",
+      "Meanwhile, cube and pan-fry the sweet potato in butter or oil over medium-high heat, seasoning with garlic, salt, pepper, and a little cumin, until golden and tender — about 12–15 minutes.",
+      "Warm the black beans separately with a splash of soy sauce and a pinch of garlic powder.",
+      "Assemble: rice on the bottom, sweet potato and beans on top, drizzle with a little vinegar for brightness."
+    ],
+    "toolSuggestion": "large skillet",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "rice"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "rice"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

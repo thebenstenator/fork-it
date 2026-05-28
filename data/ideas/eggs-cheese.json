@@ -1,0 +1,87 @@
+[
+  {
+    "id": "641890",
+    "name": "Easy Cheesy Scrambled Eggs",
+    "pitch": "You literally have everything you need for this — eggs and cheese are the whole show, and it's on the table in under 10 minutes.",
+    "timeEstimate": "~10 min",
+    "steps": [
+      "Crack your eggs into a bowl, add a pinch of salt and pepper, and beat them together. No milk? No problem — skip it or add a small splash of water for a fluffier texture.",
+      "Heat a nonstick pan over medium-low heat with a little butter or oil, then pour in the eggs.",
+      "Gently stir and fold the eggs as they cook — low and slow is the move here, it keeps them soft instead of rubbery.",
+      "When the eggs are just barely set (still look a little wet), scatter in your cheese and fold it in for another minute until melted.",
+      "Eat as-is, on toast, or wrapped in a tortilla if you've got one."
+    ],
+    "toolSuggestion": "null",
+    "missingCount": 0,
+    "imageUrl": "https://img.spoonacular.com/recipes/622598-556x370.jpg",
+    "matchScore": {
+      "have": 3,
+      "total": 6
+    },
+    "missingIngredients": [
+      "basil",
+      "milk",
+      "pepperoni"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "622598",
+    "name": "Pittata – Pizza Frittata",
+    "pitch": "Think of this as a cheesy baked egg pie — it sounds fancy but it's mostly hands-off, and your eggs and cheese carry it just fine without the extras.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Preheat your oven to 450°F on the top heat (broil) setting, or as close as you can get.",
+      "Beat your eggs in a bowl with salt, pepper, and any dried herbs you like — Italian seasoning or oregano would be great here. No milk? Just skip it, it's totally optional.",
+      "Heat a little oil or butter in an oven-safe skillet over medium heat. If you have any veggies around (even frozen ones), toss them in now.",
+      "Pour the egg mixture into the skillet and let it spread out evenly. Scatter your cheese generously on top — use whatever you've got, mozzarella, parmesan, cheddar, all of it.",
+      "Cook on the stovetop until the edges look set, about 4–5 minutes. The middle will still be a bit jiggly — that's fine.",
+      "Slide the whole pan into the oven and bake until the top is puffed and golden, about 5–8 minutes. Watch it closely toward the end.",
+      "Let it cool for a couple minutes, then slice into wedges like a pizza."
+    ],
+    "toolSuggestion": "cast iron skillet",
+    "missingCount": 0,
+    "imageUrl": "https://img.spoonacular.com/recipes/661447-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 3
+    },
+    "missingIngredients": [
+      "ham"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "661447",
+    "name": "Cream Cheese Deviled Eggs",
+    "pitch": "If you have cream cheese on hand, this is a fun little twist on deviled eggs — the filling is extra creamy and mild, which makes it a hit with kids.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Place your eggs in a saucepan and cover with cold water. Bring to a boil over medium heat, then let them boil for 5 minutes. Take the pan off the heat, cover it, and let the eggs sit in the hot water for 10 minutes.",
+      "Transfer eggs to a bowl of cold water to cool — this makes them way easier to peel.",
+      "Peel the eggs and slice them in half lengthwise. Pop the yolks out into a small bowl.",
+      "Mash the yolks with your cream cheese, a pinch of salt, and a little pepper until smooth and creamy. No ham? That's fine — the cream cheese filling is plenty tasty on its own. A tiny squeeze of mustard or a dash of paprika adds a nice kick if you have it.",
+      "Spoon or pipe the filling back into the egg whites. Dust with paprika if you've got it — it makes them look great for almost zero effort."
+    ],
+    "toolSuggestion": "null",
+    "missingCount": 0,
+    "imageUrl": "https://img.spoonacular.com/recipes/641890-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 3
+    },
+    "missingIngredients": [
+      "milk"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

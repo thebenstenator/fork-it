@@ -1,0 +1,81 @@
+[
+  {
+    "id": "637672",
+    "name": "Cheesy Picante Beef Macaroni",
+    "pitch": "With just ground beef and pasta, this one-pan skillet dinner comes together fast — a few simple swaps turn it into a saucy, cheesy weeknight win.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Brown the ground beef in a large skillet over medium-high heat, breaking it up as it cooks. Once no pink remains, drain off the extra fat.",
+      "Pour in about 1½ cups of water or broth (water works fine if that's all you have) and bring it to a boil. Stir in your pasta, reduce the heat to medium, and cook for around 10 minutes, stirring occasionally so it doesn't stick.",
+      "If you have any cheese — shredded cheddar, sliced American, whatever's in the fridge — stir it in now until melted. No cheese soup needed. If you have hot sauce or salsa, add a spoonful for a little kick. Season with salt and pepper and serve straight from the pan."
+    ],
+    "toolSuggestion": "null",
+    "missingCount": 2,
+    "imageUrl": "https://img.spoonacular.com/recipes/637672-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 5
+    },
+    "missingIngredients": [
+      "beef stock",
+      "campbell's® condensed cheddar cheese soup",
+      "picante sauce"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "649271",
+    "name": "Easy Skillet Lasagna",
+    "pitch": "No tomato sauce or cheese in the house makes classic lasagna tough, but if you can grab one jar of marinara next time you're out, this is a deeply satisfying meal that's worth the small grocery run.",
+    "timeEstimate": "~90 min",
+    "steps": [
+      "Brown the ground beef in a skillet or pot over medium heat, then drain off the fat.",
+      "Stir in your tomato or spaghetti sauce (store-brand marinara is totally fine) and bring to a gentle simmer for about 5 minutes. If you have mushrooms, slice and add them here.",
+      "In a baking dish, layer sauce, uncooked lasagna noodles (snap them to fit), more sauce, and shredded mozzarella or any melty cheese you have. Repeat until the dish is full, ending with sauce on top so the noodles cook through.",
+      "Cover tightly with foil and bake at 325°F for about 1 hour 20 minutes. Let it rest 10 minutes before cutting — this part actually matters or it'll fall apart!"
+    ],
+    "toolSuggestion": "sheet pan",
+    "missingCount": 3,
+    "imageUrl": "https://img.spoonacular.com/recipes/649271-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 6
+    },
+    "missingIngredients": [
+      "mushrooms",
+      "tomato sauce",
+      "mozzarella cheese",
+      "ragu spaghetti sauce"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-1",
+    "name": "Simple Garlic Beef Pasta",
+    "pitch": "With just ground beef and pasta, a savory garlic-and-soy pan sauce ties everything together into a surprisingly satisfying weeknight bowl.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Bring a pot of salted water to a boil and cook the pasta according to package directions. Before draining, scoop out about half a cup of the starchy pasta water — it'll help make your sauce.",
+      "While the pasta cooks, heat a splash of oil in a large skillet over medium-high heat. Add the ground beef, breaking it up as it browns. Season generously with salt, pepper, and a pinch of any dried spice you like (garlic powder, oregano, or red pepper flakes all work great here). Cook until no pink remains, about 7–8 minutes.",
+      "Push the beef to the side and add a few minced garlic cloves to the pan. Let them sizzle for about 30 seconds, then stir everything together.",
+      "Add a splash of soy sauce (about 1–2 tablespoons) and a small pat of butter to the pan, then add the drained pasta. Toss everything together, adding a little reserved pasta water as needed to loosen it into a light, glossy sauce.",
+      "Taste, adjust salt and pepper, and serve hot. Simple but genuinely good!"
+    ],
+    "toolSuggestion": "Large skillet or sauté pan",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

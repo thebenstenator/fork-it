@@ -1,0 +1,86 @@
+[
+  {
+    "id": "649495",
+    "name": "Slow Roasted Lemon Garlic Chicken",
+    "pitch": "You've got the two stars of this dish — chicken and garlic — and a squeeze of lemon (or a splash of vinegar) is all you need to round it out.",
+    "timeEstimate": "~4.5 hrs (mostly hands-off)",
+    "steps": [
+      "Preheat your oven to 220°C (425°F). Season the chicken generously inside and out with salt and pepper.",
+      "Break your garlic into cloves — no need to peel them. Tuck about two-thirds inside the chicken cavity and scatter the rest in the bottom of a roasting tin. Sit the chicken on top.",
+      "No lemon? No problem — drizzle a tablespoon of white wine vinegar or apple cider vinegar over the chicken and rub it in. Then drizzle with olive oil.",
+      "Roast at 220°C for 30 minutes to get the skin going, then drop the heat to 160°C (325°F) and let it slow-roast for at least 3–4 more hours. The meat will be fall-off-the-bone tender.",
+      "While the chicken rests (10–15 min), quickly wilt your spinach in a hot pan with a little oil and a pinch of garlic from the roasting tin. Serve the chicken right on top."
+    ],
+    "toolSuggestion": "sheet pan",
+    "missingCount": 1,
+    "imageUrl": "https://img.spoonacular.com/recipes/649495-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 3
+    },
+    "missingIngredients": [
+      "lemons"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "649827",
+    "name": "Quick Roast Chicken with Garlic",
+    "pitch": "This weeknight roast comes together fast — your chicken and garlic do most of the work, and a few easy swaps cover the rest.",
+    "timeEstimate": "~45 min",
+    "steps": [
+      "Heat your oven to 220°C (425°F). Pat the chicken dry with paper towels — this is the secret to crispy skin.",
+      "Mix softened butter (or just olive oil if that's easier) with your garlic — minced or roughly crushed — and push it under the chicken skin with your fingers. Season all over with salt and pepper.",
+      "No lemon? A small splash of white wine vinegar or just some extra olive oil in the pan works fine. No thyme? Skip it or use any dried herb you have — oregano or rosemary are both great.",
+      "Roast at 220°C for 10 minutes, then turn the heat down to 180°C (350°F) and cook another 25–35 minutes depending on size. Juices should run clear when you poke the thickest part of the thigh.",
+      "Rest the chicken for 10 minutes before cutting in. While it rests, wilt your spinach in the same roasting pan on the stovetop with a little of the chicken drippings — easiest side dish ever."
+    ],
+    "toolSuggestion": "null",
+    "missingCount": 1,
+    "imageUrl": "https://img.spoonacular.com/recipes/649183-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 4
+    },
+    "missingIngredients": [
+      "goat cheese",
+      "lamb loins"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "649183",
+    "name": "Garlicky Spinach and Chicken with Goat Cheese",
+    "pitch": "Skip the lamb and use your chicken instead — the real magic here is the wilted garlicky spinach, which is already halfway to dinner with what you have.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Heat 2 tbsp olive oil in a large pan over medium-high heat. Add your garlic (minced or sliced) and stir for about 30 seconds until fragrant.",
+      "Add the spinach and toss until just wilted, about 2 minutes. Season with salt and pepper. Set aside.",
+      "Cook your chicken in the same pan — slice it into cutlets or use whatever form it's in. If it's already cooked, just warm it through with a little olive oil and seasoning.",
+      "No goat cheese? Crumbled feta works great, or just a dollop of cream cheese if that's what you've got. Even a fried egg on top would be satisfying here.",
+      "Serve the chicken over the garlicky spinach with your cheese crumbled on top. Simple, but genuinely good."
+    ],
+    "toolSuggestion": "cast iron skillet",
+    "missingCount": 1,
+    "imageUrl": "https://img.spoonacular.com/recipes/649827-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 5
+    },
+    "missingIngredients": [
+      "butter",
+      "juice of lemon",
+      "thyme"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

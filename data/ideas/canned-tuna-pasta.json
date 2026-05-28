@@ -1,0 +1,76 @@
+[
+  {
+    "id": "715538",
+    "name": "Tuna Bruschetta Pasta",
+    "pitch": "Your canned tuna steps right in for the pork here, and with a few pantry staples you can pull together a surprisingly satisfying pasta dinner in about 20 minutes.",
+    "timeEstimate": "~20 min",
+    "steps": [
+      "Boil a pot of salted water and cook your pasta according to the package directions, then drain and set aside.",
+      "While the pasta cooks, drain your canned tuna and warm it in a skillet over medium heat with a drizzle of olive oil, a pinch of garlic, salt, and pepper — just 2 to 3 minutes to get it fragrant.",
+      "If you have any canned diced tomatoes, a splash of tomato sauce, or even fresh tomatoes, add them now to create a simple bruschetta-style base. No tomatoes? A little butter and garlic still works great.",
+      "Toss the drained pasta into the skillet and stir everything together over low heat for a couple of minutes so it all gets coated.",
+      "Serve as-is, or top with parmesan if you have it — this is simple but satisfying straight from the pan."
+    ],
+    "toolSuggestion": "cast iron skillet",
+    "missingCount": 0,
+    "imageUrl": "https://img.spoonacular.com/recipes/715538-556x370.jpg",
+    "matchScore": {
+      "have": 2,
+      "total": 4
+    },
+    "missingIngredients": [
+      "parmigiano reggiano",
+      "pork chops"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-1",
+    "name": "Tuna Pasta Aglio e Olio",
+    "pitch": "A classic Italian-style pasta that lets simple ingredients shine — garlicky, olive-oily, and genuinely satisfying on a tired weeknight.",
+    "timeEstimate": "~20 min",
+    "steps": [
+      "Boil a big pot of well-salted water and cook your pasta until al dente, reserving about half a cup of the starchy pasta water before draining.",
+      "While pasta cooks, warm a generous glug of olive oil in a skillet over medium-low heat and gently sauté 3–4 minced garlic cloves until golden and fragrant — don't let them burn.",
+      "Drain the tuna and add it to the skillet, breaking it up and letting it warm through for a couple of minutes.",
+      "Toss in the drained pasta and a splash of pasta water to loosen things up into a light, silky sauce.",
+      "Season with salt, pepper, and a tiny splash of vinegar for brightness. Serve straight from the pan."
+    ],
+    "toolSuggestion": "A large skillet — wide enough to toss the pasta right in it",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-2",
+    "name": "Soy-Glazed Tuna Noodle Bowl",
+    "pitch": "A quick Asian-inspired spin that turns pantry staples into something that feels a little more exciting — savory, slightly sticky, and totally doable.",
+    "timeEstimate": "~20 min",
+    "steps": [
+      "Cook your pasta (spaghetti or noodles work great here) in salted boiling water, then drain and rinse briefly with cold water to stop cooking.",
+      "In a small bowl, mix together 2 tablespoons soy sauce, 1 teaspoon vinegar, a tiny pinch of sugar if you have it, and a drizzle of oil — this is your sauce.",
+      "In a skillet over medium heat, sauté minced garlic in a little oil for 30 seconds, then add the drained tuna and break it up gently.",
+      "Pour in the sauce, stir to coat, then add the noodles and toss everything together over the heat for 1–2 minutes until glossy and well coated.",
+      "Taste, adjust with a little more soy or vinegar, and serve in bowls. Simple but really good."
+    ],
+    "toolSuggestion": "Tongs — great for tossing noodles evenly in the sauce",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

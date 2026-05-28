@@ -1,0 +1,76 @@
+[
+  {
+    "id": "generated-1",
+    "name": "Garlic Soy Chicken Stir-Fry with Broccoli",
+    "pitch": "A classic weeknight winner — savory, satisfying, and on the table in under 25 minutes.",
+    "timeEstimate": "~20 min",
+    "steps": [
+      "Slice chicken into thin strips and season with salt and pepper.",
+      "Heat a splash of oil in a large pan or wok over high heat. Add chicken and cook 4–5 minutes until golden, then set aside.",
+      "Add broccoli to the same pan with a splash of water and stir-fry for 3–4 minutes until bright green and tender-crisp.",
+      "Return chicken to the pan. Mix together 2 tbsp soy sauce, 1 tsp vinegar, and a pinch of garlic, then pour over everything.",
+      "Toss to coat, cook 1 more minute, and serve over rice or as-is."
+    ],
+    "toolSuggestion": "Large skillet or wok",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-2",
+    "name": "Sheet Pan Roasted Chicken and Broccoli",
+    "pitch": "Toss everything on one pan and let the oven do the work — simple but genuinely delicious.",
+    "timeEstimate": "~35 min",
+    "steps": [
+      "Preheat oven to 425°F (220°C).",
+      "Cut chicken into pieces (thighs or breasts both work) and toss with oil, garlic, salt, pepper, and your favorite dried spices — paprika or Italian seasoning are great here.",
+      "Cut broccoli into florets and toss with oil, salt, and pepper on the same sheet pan.",
+      "Spread everything in a single layer and roast for 25–30 minutes, flipping halfway, until chicken is cooked through and broccoli edges are a little crispy.",
+      "Serve straight from the pan — fewer dishes, more smiles."
+    ],
+    "toolSuggestion": "Sheet pan / baking tray",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-3",
+    "name": "Chicken and Broccoli Soup",
+    "pitch": "Warm, cozy, and endlessly comforting — this is the kind of soup that feels like a hug on a busy night.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Dice chicken into bite-sized chunks and season with salt and pepper.",
+      "In a pot, heat oil over medium heat and sauté minced garlic for 1 minute.",
+      "Add chicken and cook until lightly browned, about 5 minutes.",
+      "Pour in 4 cups of water (chicken broth would be ideal — see note below) and bring to a gentle boil.",
+      "Add broccoli florets and simmer for 8–10 minutes until tender.",
+      "Taste and adjust seasoning with salt, pepper, and a small splash of soy sauce for depth. Serve hot."
+    ],
+    "toolSuggestion": "Medium or large soup pot",
+    "missingCount": 1,
+    "missingIngredientNames": [
+      "chicken broth"
+    ],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [
+      "chicken broth"
+    ],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]

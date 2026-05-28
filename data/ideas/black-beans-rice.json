@@ -1,0 +1,72 @@
+[
+  {
+    "id": "generated-1",
+    "name": "Cuban-Style Black Beans and Rice",
+    "pitch": "This classic combo is simple, hearty, and totally satisfying — garlic and cumin do the heavy lifting here.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Cook your rice according to package directions.",
+      "While the rice cooks, heat a splash of oil in a saucepan over medium heat and sauté 3–4 minced garlic cloves for about a minute until fragrant.",
+      "Add the black beans (with their liquid if canned, or with a splash of water if cooked from scratch), plus a generous pinch of cumin, salt, and pepper.",
+      "Simmer the beans for 10–15 minutes until slightly thickened and saucy.",
+      "Spoon the beans over the rice and serve — a splash of vinegar stirred into the beans at the end really brightens the whole dish!"
+    ],
+    "toolSuggestion": "Small saucepan",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-2",
+    "name": "Black Bean Rice Patties",
+    "pitch": "Crispy on the outside, soft on the inside — these little pan-fried patties are a fun, hands-on dinner that kids tend to love.",
+    "timeEstimate": "~30 min",
+    "steps": [
+      "Cook your rice if it isn't already, then let it cool slightly — leftover rice works even better here.",
+      "Mash the black beans in a bowl until mostly smooth but still a little chunky.",
+      "Mix in the cooked rice, a few pinches of garlic powder, cumin, salt, and pepper until it holds together. If it feels too loose, add a little more rice.",
+      "Form the mixture into palm-sized patties.",
+      "Heat oil in a skillet over medium-high heat and fry the patties 3–4 minutes per side until golden and crispy.",
+      "Serve as-is or with a drizzle of soy sauce mixed with a little vinegar as a quick dipping sauce."
+    ],
+    "toolSuggestion": "Non-stick skillet",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  },
+  {
+    "id": "generated-3",
+    "name": "Black Bean Rice Soup",
+    "pitch": "A warm, filling soup that comes together fast — it's humble but genuinely comforting on a busy weeknight.",
+    "timeEstimate": "~25 min",
+    "steps": [
+      "Heat oil in a medium pot over medium heat and cook 3–4 cloves of minced garlic for 1 minute.",
+      "Add the black beans and about 3 cups of water (or more for a thinner soup), then season with cumin, a pinch of smoked paprika if you have it, salt, and pepper.",
+      "Bring to a simmer and let it cook for 10 minutes, then use a spoon or ladle to mash some of the beans against the side of the pot to naturally thicken the broth.",
+      "Stir in the cooked rice and simmer another 5 minutes until everything is warmed through and the soup has a nice, thick consistency.",
+      "Taste, adjust salt, and finish with a small splash of vinegar to brighten it up before serving."
+    ],
+    "toolSuggestion": "Medium pot",
+    "missingCount": 0,
+    "missingIngredientNames": [],
+    "imageUrl": null,
+    "matchScore": null,
+    "missingIngredients": [],
+    "showMealKitOffer": false,
+    "mealKitUrl": null,
+    "affiliateToolLink": null,
+    "affiliateIngredientLinks": []
+  }
+]
