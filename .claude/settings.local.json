@@ -28,7 +28,9 @@
       "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\thebe\\\\Projects\\\\dinner-ideas\\\\scripts\")",
       "Bash(git commit -m 'feat: pre-generate ideas content — zero API cost at build time *)",
       "Bash(git commit -m 'fix: graceful Spoonacular fallback + auth email UX *)",
-      "Bash(git commit -m 'design: remove filter emojis, replace unicode hearts with Lucide icon *)"
+      "Bash(git commit -m 'design: remove filter emojis, replace unicode hearts with Lucide icon *)",
+      "Bash(npx tsc *)",
+      "Bash(git commit -m 'design: center filter chips, move Browse ideas to button row *)"
     ],
     "additionalDirectories": [
       "c:\\Users\\thebe\\Projects\\dinner-ideas\\app\\ideas"

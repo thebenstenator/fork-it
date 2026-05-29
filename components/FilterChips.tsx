@@ -70,11 +70,11 @@ export function FilterChips({ onChange }: FilterChipsProps) {
 
   return (
     <div className="space-y-2">
-      <p className="text-xs text-stone-400 uppercase tracking-wide font-medium">
+      <p className="text-xs text-stone-400 uppercase tracking-wide font-medium text-center">
         Dietary needs
       </p>
       <div
-        className="flex flex-wrap gap-2"
+        className="flex flex-wrap gap-2 justify-center"
         role="group"
         aria-label="Dietary filters"
       >

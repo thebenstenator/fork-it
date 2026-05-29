@@ -66,11 +66,6 @@ export default function Home() {
         {/* Footer */}
         <footer className="pt-8 border-t border-stone-200 space-y-1 text-xs text-stone-400 text-center">
           <p>
-            <Link href="/ideas" className="hover:text-stone-600 transition-colors">
-              Browse ingredient ideas
-            </Link>
-          </p>
-          <p>
             Built by{" "}
             <a
               href="https://github.com/thebenstenator"

@@ -3,8 +3,9 @@
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
+import Link from 'next/link'
 import { Textarea } from '@/components/ui/textarea'
-import { Button } from '@/components/ui/button'
+import { Button, buttonVariants } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 
 const formSchema = z.object({
@@ -91,6 +92,12 @@ export function IngredientInput({ onSubmit, isLoading }: IngredientInputProps) {
         >
           Try an example
         </Button>
+        <Link
+          href="/ideas"
+          className={cn(buttonVariants({ variant: 'outline' }), 'w-full sm:w-auto')}
+        >
+          Browse ideas
+        </Link>
       </div>
     </form>
   )
