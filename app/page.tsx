@@ -6,6 +6,7 @@ import { FilterChips } from "@/components/FilterChips";
 import { MealSuggestions } from "@/components/MealSuggestions";
 import { KofiPrompt } from "@/components/KofiPrompt";
 import Link from "next/link";
+import { Heart } from "lucide-react";
 import { useMealSuggestions } from "@/hooks/useMealSuggestions";
 import { useAuth } from "@/hooks/useAuth";
 import { useFavorites } from "@/hooks/useFavorites";
@@ -34,7 +35,7 @@ export default function Home() {
                 Recent
               </Link>
               <Link href="/favorites" className="hover:text-stone-600 transition-colors flex items-center gap-1">
-                Saved <span className="text-red-700">♥</span>
+                Saved <Heart size={11} className="text-red-700 fill-red-700" />
               </Link>
             </nav>
           </div>

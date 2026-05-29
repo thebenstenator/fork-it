@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
+import { Heart } from 'lucide-react'
 import { type Meal } from '@/lib/types'
 import { type User } from '@supabase/supabase-js'
 import { AuthModal } from './AuthModal'
@@ -34,9 +35,12 @@ export function HeartButton({ meal, user, isFavorited, onToggle }: HeartButtonPr
         whileTap={{ scale: 0.85 }}
         aria-label={isFavorited ? 'Remove from favorites' : 'Save to favorites'}
         title={isFavorited ? 'Saved!' : 'Save recipe'}
-        className="cursor-pointer shrink-0 text-xl leading-none transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700 rounded"
+        className="cursor-pointer shrink-0 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700 rounded p-0.5"
       >
-        {isFavorited ? '♥' : '♡'}
+        <Heart
+          size={18}
+          className={isFavorited ? 'fill-red-700 stroke-red-700' : 'stroke-stone-300 hover:stroke-stone-400'}
+        />
       </motion.button>
 
       <AuthModal open={showAuthModal} onClose={() => setShowAuthModal(false)} />

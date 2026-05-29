@@ -96,7 +96,6 @@ export function FilterChips({ onChange }: FilterChipsProps) {
                   : 'border-stone-200 bg-white text-stone-500 hover:border-stone-300 hover:text-stone-700'
               )}
             >
-              <span aria-hidden="true">{filter.emoji}</span>
               <span>{filter.label}</span>
             </motion.button>
           )
